@@ -1,0 +1,6 @@
+name: visualizing-faculty-research
+recipe: pantheon
+config:
+  framework: drupal8
+  site: visualizing-faculty-research
+  id: 3f330315-1192-4ce1-93ac-1446fdb4b97a
