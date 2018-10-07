@@ -1,0 +1,19 @@
+uuid: ea861533-0d96-46d6-9864-7c2e5611569b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_default_name
+    - media.type.remote_video
+id: media.remote_video.field_media_default_name
+field_name: field_media_default_name
+entity_type: media
+bundle: remote_video
+label: 'Default name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
