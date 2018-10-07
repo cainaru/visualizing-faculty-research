@@ -21,7 +21,6 @@ dependencies:
     - field.field.media.remote_video.field_media_width
     - media.type.remote_video
   module:
-    - link
     - media
     - text
 _core:
@@ -31,54 +30,6 @@ targetEntityType: media
 bundle: remote_video
 mode: default
 content:
-  field_media_author_name:
-    weight: 7
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_media_cache_age:
-    weight: 10
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
-    region: content
-  field_media_default_name:
-    weight: 11
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_media_description:
-    weight: 1
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_media_height:
-    weight: 4
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
-    region: content
-  field_media_html:
-    weight: 15
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
-    region: content
   field_media_oembed_video:
     type: oembed
     weight: 0
@@ -88,72 +39,6 @@ content:
       max_height: 0
     third_party_settings: {  }
     region: content
-  field_media_provider_name:
-    weight: 8
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_media_provider_url:
-    weight: 9
-    label: inline
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
-    type: link
-    region: content
-  field_media_resource_title:
-    weight: 6
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_media_resource_type:
-    weight: 5
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_media_thumbnail_height:
-    weight: 14
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
-    region: content
-  field_media_thumbnail_uri:
-    weight: 12
-    label: inline
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
-    type: link
-    region: content
-  field_media_thumbnail_width:
-    weight: 13
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
-    region: content
   field_media_transcript:
     weight: 2
     label: above
@@ -161,17 +46,22 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-  field_media_width:
-    weight: 3
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
-    region: content
 hidden:
   created: true
+  field_media_author_name: true
+  field_media_cache_age: true
+  field_media_default_name: true
+  field_media_description: true
+  field_media_height: true
+  field_media_html: true
+  field_media_provider_name: true
+  field_media_provider_url: true
+  field_media_resource_title: true
+  field_media_resource_type: true
+  field_media_thumbnail_height: true
+  field_media_thumbnail_uri: true
+  field_media_thumbnail_width: true
+  field_media_width: true
   name: true
   thumbnail: true
   uid: true
