@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.audio.field_media_audio_file
+    - field.field.media.audio.field_media_file_size
     - media.type.audio
   module:
     - file
@@ -24,6 +25,15 @@ content:
       loop: false
       multiple_file_display_type: tags
     third_party_settings: {  }
+    region: content
+  field_media_file_size:
+    weight: 1
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
     region: content
 hidden:
   created: true
