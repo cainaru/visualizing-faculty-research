@@ -6,10 +6,12 @@ dependencies:
     - field.field.media.audio.field_media_audio_file
     - field.field.media.audio.field_media_file_size
     - field.field.media.audio.field_media_mime_type
+    - field.field.media.audio.field_media_transcript
     - media.type.audio
   module:
     - file
     - path
+    - text
 _core:
   default_config_hash: UFXDqkMaCGpX2ZbXXHWaWbeCNkQjzxB5w0jPpsCoJFI
 id: media.audio.default
@@ -29,6 +31,14 @@ content:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
+    region: content
+  field_media_transcript:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
     region: content
   name:
     type: string_textfield

@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.media.video.field_media_file_size
     - field.field.media.video.field_media_mime_type
+    - field.field.media.video.field_media_transcript
     - field.field.media.video.field_media_video_file
     - media.type.video
   module:
     - file
+    - text
 _core:
   default_config_hash: dQR0mYK5NNg27OigHrxZrHSsnwewnNZcPJKjKIO0cpA
 id: media.video.default
@@ -32,6 +34,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_media_transcript:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_media_video_file:
     type: file_video

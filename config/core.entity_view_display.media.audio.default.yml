@@ -6,9 +6,11 @@ dependencies:
     - field.field.media.audio.field_media_audio_file
     - field.field.media.audio.field_media_file_size
     - field.field.media.audio.field_media_mime_type
+    - field.field.media.audio.field_media_transcript
     - media.type.audio
   module:
     - file
+    - text
 _core:
   default_config_hash: SWf3MLdbEKvlx4Vs6iPwDHu5pr1aKT0SJmgp8no73-k
 id: media.audio.default
@@ -43,6 +45,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_media_transcript:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
 hidden:
   created: true
