@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.media.audio.field_media_audio_file
     - field.field.media.audio.field_media_file_size
+    - field.field.media.audio.field_media_mime_type
     - media.type.audio
   module:
     - file
@@ -61,3 +62,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_media_file_size: true
+  field_media_mime_type: true

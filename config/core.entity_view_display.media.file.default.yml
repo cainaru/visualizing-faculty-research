@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.media.file.field_media_file
     - field.field.media.file.field_media_file_size
+    - field.field.media.file.field_media_mime_type
     - media.type.file
   module:
     - file
@@ -24,13 +25,21 @@ content:
     weight: 1
     region: content
   field_media_file_size:
-    weight: 2
+    weight: 3
     label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
     type: number_integer
+    region: content
+  field_media_mime_type:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
 hidden:
   created: true

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.media.file.field_media_file
     - field.field.media.file.field_media_file_size
+    - field.field.media.file.field_media_mime_type
     - media.type.file
   module:
     - file
@@ -61,3 +62,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_media_file_size: true
+  field_media_mime_type: true

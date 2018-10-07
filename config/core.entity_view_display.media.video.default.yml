@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.video.field_media_file_size
+    - field.field.media.video.field_media_mime_type
     - field.field.media.video.field_media_video_file
     - media.type.video
   module:
@@ -16,13 +17,21 @@ bundle: video
 mode: default
 content:
   field_media_file_size:
-    weight: 1
+    weight: 2
     label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
     type: number_integer
+    region: content
+  field_media_mime_type:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_media_video_file:
     type: file_video
