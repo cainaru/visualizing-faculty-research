@@ -5,8 +5,10 @@ dependencies:
   config:
     - field.field.media.image.field_media_description
     - field.field.media.image.field_media_file_size
+    - field.field.media.image.field_media_height
     - field.field.media.image.field_media_image
     - field.field.media.image.field_media_mime_type
+    - field.field.media.image.field_media_width
     - image.style.thumbnail
     - media.type.image
   module:
@@ -74,4 +76,6 @@ content:
     third_party_settings: {  }
 hidden:
   field_media_file_size: true
+  field_media_height: true
   field_media_mime_type: true
+  field_media_width: true
