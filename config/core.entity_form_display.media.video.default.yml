@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.video.field_media_description
     - field.field.media.video.field_media_file_size
     - field.field.media.video.field_media_mime_type
     - field.field.media.video.field_media_transcript
@@ -25,8 +26,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_media_transcript:
+  field_media_description:
     weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_media_transcript:
+    weight: 2
     settings:
       rows: 5
       placeholder: ''
