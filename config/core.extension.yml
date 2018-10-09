@@ -1,6 +1,7 @@
 module:
   automated_cron: 0
   bibcite: 0
+  bibcite_entity: 0
   big_pipe: 0
   block: 0
   breakpoint: 0

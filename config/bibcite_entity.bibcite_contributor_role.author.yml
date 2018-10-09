@@ -1,0 +1,9 @@
+uuid: 4a72620b-f6d9-444d-af3b-6e595e68b4ac
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: l7GRex-zlrEREu0Qet-5TA2aBNHkF5920V7hp6RyA_8
+id: author
+label: Author
+weight: -10

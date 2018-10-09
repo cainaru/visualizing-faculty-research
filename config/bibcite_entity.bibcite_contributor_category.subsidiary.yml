@@ -1,0 +1,9 @@
+uuid: eab002ad-b02f-4ac8-b23e-4df818d405d8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wlcI9u7vVI3wMS1_epulB7bmLDYLUmnFrS__MhzvvjA
+id: subsidiary
+label: Subsidiary
+weight: -7
