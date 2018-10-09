@@ -1,0 +1,9 @@
+uuid: 43dc5a5b-b0fa-4412-a85b-be90ba3ad690
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MLjPAdjBuADql4oOfEREHwl1Q8y36dE4Yncs1OyJUoU
+id: translator
+label: Translator
+weight: -2

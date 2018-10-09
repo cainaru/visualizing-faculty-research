@@ -1,0 +1,9 @@
+uuid: 5f501f91-f9cf-4874-8a45-f6d6b3b6ead2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eIYB1afpeSD1A7_h0a7rYoDU_ofFgXgw0BqHD7iZPK8
+id: international_author
+label: 'International Author'
+weight: 5

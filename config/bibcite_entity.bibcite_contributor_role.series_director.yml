@@ -1,0 +1,9 @@
+uuid: 01636612-50e4-4c7d-85af-1e2823f536b4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M9mxOgY_xjeVbH6pChbzfNdCt91m5qSX-yy9N9LvBDo
+id: series_director
+label: 'Series Director'
+weight: 1

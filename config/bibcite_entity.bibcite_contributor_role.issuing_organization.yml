@@ -1,0 +1,9 @@
+uuid: 880e1345-124b-4f00-8240-f4a2723a326e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: q5pwxm6I_CcKFjbOywSuLW32kYjc4zj3F68dR_UZrxg
+id: issuing_organization
+label: 'Issuing Organization'
+weight: 4

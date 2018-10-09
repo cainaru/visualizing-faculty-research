@@ -1,0 +1,9 @@
+uuid: 5871c574-4c4c-4bad-913b-13b92f94b75c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nSabfhhl8EP7fFQBYgvJSVlZzVS2fUNzysXu2q9G6uk
+id: counsel
+label: Counsel
+weight: 0
