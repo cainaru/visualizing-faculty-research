@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.media.full
     - field.field.media.remote_video.field_media_author_name
+    - field.field.media.remote_video.field_media_bibliography_object
     - field.field.media.remote_video.field_media_cache_age
     - field.field.media.remote_video.field_media_default_name
     - field.field.media.remote_video.field_media_description
@@ -40,6 +41,15 @@ content:
     third_party_settings: {  }
     type: string
     region: content
+  field_media_bibliography_object:
+    type: entity_reference_entity_view
+    weight: 16
+    region: content
+    label: above
+    settings:
+      view_mode: table
+      link: false
+    third_party_settings: {  }
   field_media_cache_age:
     weight: 10
     label: inline
