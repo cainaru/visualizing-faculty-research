@@ -1,0 +1,9 @@
+uuid: 8d72e8b1-6e2d-4913-ab53-fa28f07b524a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qeRCBZdUR710IG8rrnRwgffVVYd_MSk_3YLJHCDPmew
+id: tertiary
+label: Tertiary
+weight: -8

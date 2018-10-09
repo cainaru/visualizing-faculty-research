@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.full
+    - field.field.media.file.field_media_bibliography_object
     - field.field.media.file.field_media_description
     - field.field.media.file.field_media_file
     - field.field.media.file.field_media_file_size
@@ -19,6 +20,14 @@ targetEntityType: media
 bundle: file
 mode: full
 content:
+  field_media_bibliography_object:
+    type: entity_reference_label
+    weight: 5
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
   field_media_description:
     weight: 4
     label: above
