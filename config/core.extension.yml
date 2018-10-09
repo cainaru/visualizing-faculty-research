@@ -1,5 +1,6 @@
 module:
   automated_cron: 0
+  bibcite: 0
   big_pipe: 0
   block: 0
   breakpoint: 0
@@ -35,6 +36,7 @@ module:
   quickedit: 0
   rdf: 0
   search: 0
+  serialization: 0
   shortcut: 0
   simple_block: 0
   system: 0
