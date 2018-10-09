@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.remote_video.field_media_author_name
+    - field.field.media.remote_video.field_media_bibliography_object
     - field.field.media.remote_video.field_media_cache_age
     - field.field.media.remote_video.field_media_default_name
     - field.field.media.remote_video.field_media_description
@@ -21,6 +22,7 @@ dependencies:
     - field.field.media.remote_video.field_media_width
     - media.type.remote_video
   module:
+    - inline_entity_form
     - media
     - path
     - text
@@ -37,6 +39,22 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_media_bibliography_object:
+    weight: 3
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: bibliography
+      label_plural: bibliographies
+      allow_new: true
+      match_operator: CONTAINS
+      collapsible: false
+      collapsed: false
+      allow_existing: false
+      allow_duplicate: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
   field_media_description:
     weight: 1
     settings:

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.media.full
     - field.field.media.audio.field_media_audio_file
+    - field.field.media.audio.field_media_bibliography_object
     - field.field.media.audio.field_media_description
     - field.field.media.audio.field_media_file_size
     - field.field.media.audio.field_media_mime_type
@@ -31,15 +32,24 @@ content:
       multiple_file_display_type: tags
     third_party_settings: {  }
     region: content
-  field_media_description:
+  field_media_bibliography_object:
+    type: entity_reference_entity_view
     weight: 3
+    region: content
+    label: above
+    settings:
+      view_mode: table
+      link: false
+    third_party_settings: {  }
+  field_media_description:
+    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_media_file_size:
-    weight: 2
+    weight: 5
     label: inline
     settings:
       thousand_separator: ''
@@ -48,7 +58,7 @@ content:
     type: number_integer
     region: content
   field_media_mime_type:
-    weight: 1
+    weight: 4
     label: inline
     settings:
       link_to_entity: false
@@ -56,7 +66,7 @@ content:
     type: string
     region: content
   field_media_transcript:
-    weight: 4
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
