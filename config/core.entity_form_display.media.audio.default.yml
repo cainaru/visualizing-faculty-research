@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.audio.field_media_audio_file
+    - field.field.media.audio.field_media_bibliography_object
     - field.field.media.audio.field_media_description
     - field.field.media.audio.field_media_file_size
     - field.field.media.audio.field_media_mime_type
@@ -11,6 +12,7 @@ dependencies:
     - media.type.audio
   module:
     - file
+    - inline_entity_form
     - path
     - text
 _core:
@@ -32,6 +34,22 @@ content:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
+    region: content
+  field_media_bibliography_object:
+    weight: 3
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: bibliography
+      label_plural: bibliographies
+      allow_new: true
+      match_operator: CONTAINS
+      collapsible: false
+      collapsed: false
+      allow_existing: false
+      allow_duplicate: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
     region: content
   field_media_description:
     weight: 1

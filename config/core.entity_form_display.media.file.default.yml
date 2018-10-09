@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.file.field_media_bibliography_object
     - field.field.media.file.field_media_description
     - field.field.media.file.field_media_file
     - field.field.media.file.field_media_file_size
@@ -10,6 +11,7 @@ dependencies:
     - media.type.file
   module:
     - file
+    - inline_entity_form
     - path
     - text
 _core:
@@ -25,6 +27,22 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_media_bibliography_object:
+    weight: 2
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: bibliography
+      label_plural: bibliographies
+      allow_new: true
+      match_operator: CONTAINS
+      collapsible: false
+      collapsed: false
+      allow_existing: false
+      allow_duplicate: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
   field_media_description:
     weight: 1
     settings:
