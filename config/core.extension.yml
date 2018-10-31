@@ -8,6 +8,7 @@ module:
   comment: 0
   config: 0
   config_direct_save: 0
+  config_update: 0
   contact: 0
   contextual: 0
   crop: 0
@@ -17,6 +18,8 @@ module:
   devel: 0
   dynamic_page_cache: 0
   editor: 0
+  features: 0
+  features_ui: 0
   field: 0
   field_ui: 0
   file: 0
