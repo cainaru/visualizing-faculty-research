@@ -1,0 +1,21 @@
+uuid: db0ceed0-1894-4de3-a3f7-f9f3c647a069
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - text
+_core:
+  default_config_hash: o_qRXDdlKaKlc4j3-s5OpPifTxLfin-vLW7cotR--jw
+id: media.field_media_byline_freeform
+field_name: field_media_byline_freeform
+entity_type: media
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

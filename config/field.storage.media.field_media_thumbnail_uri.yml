@@ -5,6 +5,8 @@ dependencies:
   module:
     - link
     - media
+_core:
+  default_config_hash: B6ZnXdm_Xf76cICcls1UIeQX4erjhmCsuRnqhiztGtY
 id: media.field_media_thumbnail_uri
 field_name: field_media_thumbnail_uri
 entity_type: media

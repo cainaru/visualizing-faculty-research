@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
   module:
     - text
+_core:
+  default_config_hash: PND8iHENYgdm9A1moNslH2PMMlJ3qcQYUxy-cq6I0yo
 id: media.image.field_media_description
 field_name: field_media_description
 entity_type: media

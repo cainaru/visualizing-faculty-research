@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.media.field_media_file_size
     - media.type.image
+_core:
+  default_config_hash: BNc6g0G83-dccqDrkw3ke0G50ajBkLGGWRk3R18Sze8
 id: media.image.field_media_file_size
 field_name: field_media_file_size
 entity_type: media

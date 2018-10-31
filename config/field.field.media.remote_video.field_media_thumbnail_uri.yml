@@ -7,6 +7,8 @@ dependencies:
     - media.type.remote_video
   module:
     - link
+_core:
+  default_config_hash: 5TMY6GdQGK-S22Lg7DHCfe4OqiM_bAXnghYYXa0Z2ho
 id: media.remote_video.field_media_thumbnail_uri
 field_name: field_media_thumbnail_uri
 entity_type: media

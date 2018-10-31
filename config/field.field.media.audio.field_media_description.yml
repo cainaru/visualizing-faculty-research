@@ -7,6 +7,8 @@ dependencies:
     - media.type.audio
   module:
     - text
+_core:
+  default_config_hash: qaaGfdjPB4aQI8z1Rgv3nlsur1iQHk3hmLu6ElTJtgo
 id: media.audio.field_media_description
 field_name: field_media_description
 entity_type: media

@@ -1,0 +1,23 @@
+uuid: 7cd5145d-220e-4f9c-9ed5-8cd0cd83060b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_byline_freeform
+    - media.type.image
+  module:
+    - text
+_core:
+  default_config_hash: jlddWQr-ORIwM2HT0VV2h8eKvRAkSjjs-A7zQUzVV0I
+id: media.image.field_media_byline_freeform
+field_name: field_media_byline_freeform
+entity_type: media
+bundle: image
+label: 'Byline (freeform)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

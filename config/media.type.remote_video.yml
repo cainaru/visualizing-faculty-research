@@ -2,8 +2,6 @@ uuid: 11b8cc64-2542-4598-93b3-e0b780789320
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 2r_Yo2tYXnt7PLx1pnlr1JU3iHmnsoWFdzQFs2sUXGk
 id: remote_video
 label: 'Remote video'
 description: 'A remotely hosted video from YouTube or Vimeo.'
