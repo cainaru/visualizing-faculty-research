@@ -1,0 +1,22 @@
+uuid: 4d0d5ba3-aca8-4f85-8549-4a1384d6dc1d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: vpmBfW8ix3YHhKcr3W6H7TDKsQ4b2gGXFbpMD-lhspM
+id: node.field_last_updated
+field_name: field_last_updated
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

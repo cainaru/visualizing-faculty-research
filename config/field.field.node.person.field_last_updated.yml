@@ -1,0 +1,26 @@
+uuid: fa01199b-81af-45a9-b9fa-8dc48eca5fe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_updated
+    - node.type.person
+  module:
+    - datetime
+_core:
+  default_config_hash: Yd9oaUXgYQWlS46Fz9ysjbGca-G4pQ3dQfif5QVh1d0
+id: node.person.field_last_updated
+field_name: field_last_updated
+entity_type: node
+bundle: person
+label: 'Last updated'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

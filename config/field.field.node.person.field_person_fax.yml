@@ -1,0 +1,23 @@
+uuid: f1b6995b-1358-4e85-a768-0162e3de99a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_fax
+    - node.type.person
+  module:
+    - telephone
+_core:
+  default_config_hash: CjoMC8ks7ryTbT-v597Sr8HC18lEOyZMmZrjsOxGKE4
+id: node.person.field_person_fax
+field_name: field_person_fax
+entity_type: node
+bundle: person
+label: Fax
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

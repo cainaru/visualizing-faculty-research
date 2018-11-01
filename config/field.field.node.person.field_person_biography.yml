@@ -1,0 +1,23 @@
+uuid: 421848b9-a3d6-4e1f-93a9-ed99fcb8c478
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_biography
+    - node.type.person
+  module:
+    - text
+_core:
+  default_config_hash: PWQe-xTaU2azCJZUL7x6Uf9Jize-8O-rQkDAXQgwPU0
+id: node.person.field_person_biography
+field_name: field_person_biography
+entity_type: node
+bundle: person
+label: Biography
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

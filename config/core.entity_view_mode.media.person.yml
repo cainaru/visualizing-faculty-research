@@ -1,0 +1,10 @@
+uuid: 579803dc-3f7a-4757-a0a8-a6d7ddfe37a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.person
+label: Person
+targetEntityType: media
+cache: true
