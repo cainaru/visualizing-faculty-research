@@ -1,0 +1,27 @@
+uuid: 3a3bbf18-2b64-4113-bea2-9cdeb22f210a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - di_stlawu
+_core:
+  default_config_hash: 7t5dXu2popAhU_mWNIHcRfJWlbPbwnqAdtwmWP8JX1k
+id: di_stlawu_page_title
+theme: di_stlawu
+region: page_title
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: true
+    context_mapping: {  }

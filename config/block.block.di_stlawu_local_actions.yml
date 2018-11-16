@@ -1,0 +1,20 @@
+uuid: 05df6ba1-e08d-4639-bd87-3c24e26dbe8f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - di_stlawu
+_core:
+  default_config_hash: _Q-DsNHLs_L03G0KsgLBIfrKRP2KOhdfqIZCaAG5M9E
+id: di_stlawu_local_actions
+theme: di_stlawu
+region: local_tasks
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

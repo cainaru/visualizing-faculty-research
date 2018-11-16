@@ -1,0 +1,22 @@
+uuid: 2bd092e2-5ab4-4f9a-86ef-386823affd38
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - di_stlawu
+_core:
+  default_config_hash: N4gq84mo9VBdMUqkjdwbvQ5ZrbknGApWPTN-UIQxvCQ
+id: di_stlawu_search
+theme: di_stlawu
+region: sidebar_first
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

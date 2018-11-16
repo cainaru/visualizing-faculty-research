@@ -1,0 +1,22 @@
+uuid: 48b788b5-774e-465b-9e56-c3807ccc1324
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - di_stlawu
+_core:
+  default_config_hash: SsLy9musiDUlGhfYZobru8cGfmrDjRCSXVknK0XZrQ8
+id: di_stlawu_breadcrumbs
+theme: di_stlawu
+region: breadcrumbs
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
