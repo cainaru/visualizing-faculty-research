@@ -1,0 +1,30 @@
+uuid: 102218ea-e90b-42e5-a499-8b9327214663
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_media
+    - media.type.image
+    - node.type.article
+_core:
+  default_config_hash: ayGpDc27iX4smuW3Px3MRU2G6MYWQkLA5pk0ru_ZxBQ
+id: node.article.field_teaser_media
+field_name: field_teaser_media
+entity_type: node
+bundle: article
+label: 'Teaser media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

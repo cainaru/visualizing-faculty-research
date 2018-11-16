@@ -1,0 +1,11 @@
+uuid: 1ce463e5-444c-4d54-9bd6-2b8e58fc2da9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4EGStWzO4vlpoiygGwi7oeyvCS-yDxgj1dsYNDLcoVA
+id: view
+label: View
+icon_uuid: null
+description: 'Use <em>view</em> to reference certain Drupal views.'
+behavior_plugins: {  }

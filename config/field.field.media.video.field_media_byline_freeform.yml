@@ -1,0 +1,23 @@
+uuid: 3d79298f-4c3d-43ed-962a-fa9c0cb1ffa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_byline_freeform
+    - media.type.video
+  module:
+    - text
+_core:
+  default_config_hash: bWelb45MPDyzB-dhLF64wv-BkSyxp2J43PZGmE3Iup4
+id: media.video.field_media_byline_freeform
+field_name: field_media_byline_freeform
+entity_type: media
+bundle: video
+label: 'Byline (freeform)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

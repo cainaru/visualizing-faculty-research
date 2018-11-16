@@ -1,0 +1,26 @@
+uuid: d6546b42-0807-4700-9903-67c242be261c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.grid_row.field_grid_row_content
+    - paragraphs.paragraphs_type.grid_row
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: 69-6OAgpRrMxNE5HFN4jHsTRtJTBnQc9xLFFSxvXABQ
+id: paragraph.grid_row.default
+targetEntityType: paragraph
+bundle: grid_row
+mode: default
+content:
+  field_grid_row_content:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

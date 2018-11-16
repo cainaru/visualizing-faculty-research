@@ -1,0 +1,11 @@
+uuid: 298b8493-d178-44c8-a4b2-2b7df69716ed
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KLl6G9xhyfHkiKyGeQKU3zCBGfSJlK-SFHs-fSQIi8U
+id: grid_row
+label: 'Grid Builder Row'
+icon_uuid: null
+description: 'Use <em>grid builder row</em> to build a grid of items.'
+behavior_plugins: {  }

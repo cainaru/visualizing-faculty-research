@@ -1,0 +1,22 @@
+uuid: 1550bfc6-5865-4d29-accc-c86314ccaf97
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - di_stlawu
+_core:
+  default_config_hash: r_CIV53OpMwOmMPVLV609-uCBJdA8348OO8-zSEFkr0
+id: di_stlawu_help
+theme: di_stlawu
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

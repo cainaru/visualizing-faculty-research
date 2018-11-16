@@ -1,0 +1,11 @@
+uuid: d75e7db1-446a-4276-bc32-d3ef21bb8db4
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: footer_contact_info
+title: 'Footer contact info'
+content:
+  value: "<p><a href=\"https://www.stlawu.edu\"><img alt=\"St. Lawrence University\" src=\"/themes/custom/di_stlawu/images/st-lawrence-university-logo%402x.png\" width=\"226\" /></a></p>\r\n\r\n<p><strong>Digital Scholarship</strong><br />\r\n23 Romoda Drive<br />\r\nCanton, NY 13617</p>\r\n"
+  format: full_html

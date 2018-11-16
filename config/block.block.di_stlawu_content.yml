@@ -1,0 +1,22 @@
+uuid: 01885a5f-07a8-48f1-96d0-651656116c26
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - di_stlawu
+_core:
+  default_config_hash: 0PwT2m5qWdvhdBvOrLhA1oRm3SDWb3hHHCKnAeL5u-w
+id: di_stlawu_content
+theme: di_stlawu
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 1df515a4-08af-4092-9222-aaeb36f4c984
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.person
+_core:
+  default_config_hash: cZJlFBD-qQQBQxjKxMpKanwgK7scvQAQ45H6Nrec6_4
+id: node.person.status
+field_name: status
+entity_type: node
+bundle: person
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

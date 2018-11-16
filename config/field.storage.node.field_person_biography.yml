@@ -1,0 +1,21 @@
+uuid: a1e73dc6-4edb-49a0-8263-7141e6f7e212
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: C5f3QXAnJDjhRLQUX7nwlq0VU_9KlUkvuWd2BWwhqRo
+id: node.field_person_biography
+field_name: field_person_biography
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

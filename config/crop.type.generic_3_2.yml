@@ -1,0 +1,14 @@
+uuid: 745e2560-4cee-42ca-9f9f-1ff153a68189
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KbMBh_B9YSRM1PHBgwKVWkzfmWtsYmrccrSalr0hPlY
+label: 'Generic 3:2'
+id: generic_3_2
+description: '3:2 picture crop.'
+aspect_ratio: '3:2'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

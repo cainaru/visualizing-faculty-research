@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.media.field_media_provider_name
     - media.type.remote_video
+_core:
+  default_config_hash: HjoD8wwSzqEe8UZoYHhsFdHpW1OqzZSGLtHA1AEFQaw
 id: media.remote_video.field_media_provider_name
 field_name: field_media_provider_name
 entity_type: media

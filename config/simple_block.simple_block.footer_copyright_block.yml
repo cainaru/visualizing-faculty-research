@@ -1,0 +1,11 @@
+uuid: 258ef165-6bfd-475c-b9b3-d71aa590ea89
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: footer_copyright_block
+title: 'Footer copyright block'
+content:
+  value: "<p><strong>Copyright © 2018 St. Lawrence University</strong></p>\r\n\r\n<p><a href=\"#\"><strong>Privacy Statement</strong></a></p>"
+  format: full_html

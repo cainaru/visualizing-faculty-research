@@ -1,0 +1,9 @@
+uuid: 3fd4a9d3-d18d-4991-bacb-c6240def6524
+langcode: en
+status: true
+dependencies: {  }
+name: Department
+vid: department
+description: 'Use department to group content with academic or administrative departments.'
+hierarchy: 0
+weight: 0

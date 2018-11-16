@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.media.field_media_mime_type
     - media.type.video
+_core:
+  default_config_hash: xr015EZxQWhryEKaP6Vk0pWJB8u1MUhKpeofrOYKdSE
 id: media.video.field_media_mime_type
 field_name: field_media_mime_type
 entity_type: media

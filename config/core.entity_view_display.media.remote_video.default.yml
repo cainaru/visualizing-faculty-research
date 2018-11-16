@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.remote_video.field_media_author_name
+    - field.field.media.remote_video.field_media_byline_freeform
     - field.field.media.remote_video.field_media_cache_age
     - field.field.media.remote_video.field_media_default_name
     - field.field.media.remote_video.field_media_description
@@ -23,13 +24,18 @@ dependencies:
   module:
     - media
     - text
-_core:
-  default_config_hash: gUaDZKMQD3lmLKWPn727X3JHVdKJ525g4EJCCcDVAqk
 id: media.remote_video.default
 targetEntityType: media
 bundle: remote_video
 mode: default
 content:
+  field_media_byline_freeform:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   field_media_oembed_video:
     type: oembed
     weight: 0
@@ -47,6 +53,7 @@ content:
     type: text_default
     region: content
 hidden:
+  addtoany: true
   created: true
   field_media_author_name: true
   field_media_cache_age: true

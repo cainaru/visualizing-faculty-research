@@ -1,0 +1,11 @@
+uuid: 74135a72-72b8-4e23-be8d-30dcb5669a67
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8UNP1vM3n-9TA6FaQbujqVxLvAeS-mPp5JROJrWFod4
+id: grid_column
+label: Column
+icon_uuid: null
+description: 'Use <em>grid column</em> to build columns inside of a grid row <strong>only</strong>.'
+behavior_plugins: {  }

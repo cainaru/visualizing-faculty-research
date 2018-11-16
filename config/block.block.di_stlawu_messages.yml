@@ -1,0 +1,22 @@
+uuid: 3e4e6e81-edc9-4ead-bac5-5187fda2b885
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - di_stlawu
+_core:
+  default_config_hash: 6zFKn_LZ9jFwHFGA8iqeOOoRQ720o2Fr4LIGe5dcHXw
+id: di_stlawu_messages
+theme: di_stlawu
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

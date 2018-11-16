@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: ckS0-v2YlxJc3-JVf44G6pLOGAiQe5DQyyVzMoIWqTU
 id: media.field_media_width
 field_name: field_media_width
 entity_type: media

@@ -1,0 +1,29 @@
+uuid: cc20fbbe-8c60-47c4-be92-31d2a6116c21
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: o1xgHuGvsbBIxU0D3KYs9C6GrZy7zf0-My3z4DQGPBM
+id: paragraph.field_section_width
+field_name: field_section_width
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: 'Content width'
+    -
+      value: '2'
+      label: 'Window width'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

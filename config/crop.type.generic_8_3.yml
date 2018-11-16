@@ -1,0 +1,14 @@
+uuid: b4c28fc4-223c-4664-921f-4e2087efe806
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nAblGIw25i5FjNU7XjoQaLYjdArVmx_SuskRz8UO8RQ
+label: 'Generic 8:3'
+id: generic_8_3
+description: '8:3 picture crop.'
+aspect_ratio: '8:3'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

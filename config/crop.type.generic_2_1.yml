@@ -1,0 +1,14 @@
+uuid: db693f82-e618-4ca8-bf75-a7bb696797f1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0vwFqDcW9hmW1i7_3354tsnvTvT79vw1fsaIzquIej0
+label: 'Generic 2:1'
+id: generic_2_1
+description: '2:1 picture crop.'
+aspect_ratio: '2:1'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

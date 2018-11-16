@@ -1,0 +1,14 @@
+uuid: 73bb6615-9987-46d5-b37b-318f1cd53ef4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QU37CBQuMuXahrX0GDjJTOe6ddM7uUYjmHeVQKXa-FU
+label: 'Generic 5:4'
+id: generic_5_4
+description: '5:4 picture crop.'
+aspect_ratio: '5:4'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

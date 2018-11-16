@@ -1,0 +1,26 @@
+uuid: 82addfc2-114b-4718-b0b5-fa38ea818642
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - di_stlawu
+_core:
+  default_config_hash: 1hdjr0wsStdVuhktK0vZw4toQWdY_p76336ZukyeQ_Y
+id: di_stlawu_tools
+theme: di_stlawu
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

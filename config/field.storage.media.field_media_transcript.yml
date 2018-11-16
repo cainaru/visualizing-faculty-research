@@ -5,6 +5,8 @@ dependencies:
   module:
     - media
     - text
+_core:
+  default_config_hash: cVf0D3nNnY3S3L7F-S_kPuzJM6ry8mrq0UTXENYBbUE
 id: media.field_media_transcript
 field_name: field_media_transcript
 entity_type: media

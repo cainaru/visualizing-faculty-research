@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: D4TOhVIV8ZIldDm42GUFqVj7Kr2B8Z4TkBHE5EN4mhw
 id: media.field_media_thumbnail_height
 field_name: field_media_thumbnail_height
 entity_type: media

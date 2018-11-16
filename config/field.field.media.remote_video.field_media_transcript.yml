@@ -7,6 +7,8 @@ dependencies:
     - media.type.remote_video
   module:
     - text
+_core:
+  default_config_hash: StoI8Kq9J9yWxtjbE5QLXsEAEB0ZITQ18ltYnJRraGE
 id: media.remote_video.field_media_transcript
 field_name: field_media_transcript
 entity_type: media

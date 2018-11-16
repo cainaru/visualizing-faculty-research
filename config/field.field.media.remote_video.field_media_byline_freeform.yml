@@ -1,0 +1,23 @@
+uuid: 4aedb93f-c8b9-4141-a55c-72bc1440707f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_byline_freeform
+    - media.type.remote_video
+  module:
+    - text
+_core:
+  default_config_hash: oYc0eniMR0Q6nURZUWNLF8fe9vb5G175A7gL1j0qMPE
+id: media.remote_video.field_media_byline_freeform
+field_name: field_media_byline_freeform
+entity_type: media
+bundle: remote_video
+label: 'Byline (freeform)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

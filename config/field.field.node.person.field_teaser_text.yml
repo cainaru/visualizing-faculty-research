@@ -1,0 +1,23 @@
+uuid: d6fc33ad-335f-4917-8d7e-588e4c8cb3af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_text
+    - node.type.person
+  module:
+    - text
+_core:
+  default_config_hash: VJF1Maf1ieVA4eQG3pCxs45_dDlOIA-BsZV4edA8JfA
+id: node.person.field_teaser_text
+field_name: field_teaser_text
+entity_type: node
+bundle: person
+label: 'Teaser text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
