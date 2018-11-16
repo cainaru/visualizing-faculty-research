@@ -41,8 +41,10 @@ content:
       image_link: ''
     third_party_settings: {  }
 hidden:
+  addtoany: true
   created: true
   field_media_author_name: true
+  field_media_byline_freeform: true
   field_media_cache_age: true
   field_media_default_name: true
   field_media_description: true

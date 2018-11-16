@@ -6644,14 +6644,20 @@ ol, ul {
 
 .node-header-wrapper {
   margin-bottom: 28px;
-  padding-top: 28px;
-  padding-bottom: 28px; }
+  padding-top: 28px; }
   @media (min-width: 568px) {
     .node-header-wrapper .page-title {
       margin-top: 0px; } }
 
 .region-content {
   padding-bottom: 28px; }
+
+.field--label-inline .field--items {
+  float: none;
+  display: inline-block; }
+
+.field--label-inline .field--label, .field--label-inline > .field--item, .field--label-inline .field--items {
+  padding-right: .25em; }
 
 .flex-height {
   display: -ms-flexbox;

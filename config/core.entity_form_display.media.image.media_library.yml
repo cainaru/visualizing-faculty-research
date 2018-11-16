@@ -14,7 +14,7 @@ dependencies:
     - image.style.thumbnail
     - media.type.image
   module:
-    - image
+    - image_widget_crop
     - text
 _core:
   default_config_hash: fPWORKfXikTztL2FIRAhIxK7xWLZ-kOBdkGYBVIllFw
@@ -40,12 +40,26 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_media_image:
-    type: image_image
+    type: image_widget_crop
     weight: 1
     region: content
     settings:
-      progress_indicator: throbber
+      show_default_crop: true
+      warn_multiple_usages: true
       preview_image_style: thumbnail
+      crop_preview_image_style: crop_thumbnail
+      crop_list:
+        - freeform
+        - generic_16_9
+        - generic_1_1
+        - generic_2_1
+        - generic_3_2
+        - social_media_28_15
+        - social_media_40_21
+      crop_types_required:
+        - generic_1_1
+      progress_indicator: throbber
+      show_crop_area: false
     third_party_settings: {  }
   name:
     type: string_textfield

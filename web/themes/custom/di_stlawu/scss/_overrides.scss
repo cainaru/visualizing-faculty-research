@@ -51,7 +51,7 @@ ol, ul {
 .node-header-wrapper {
   margin-bottom: $line-height-computed;
   padding-top: $line-height-computed;
-  padding-bottom: $line-height-computed;
+  // padding-bottom: $line-height-computed;
 
   & .page-title {
     @media (min-width: 568px) {
@@ -62,6 +62,15 @@ ol, ul {
 
 .region-content {
   padding-bottom: $line-height-computed;
+}
+
+.field--label-inline .field--items {
+  float: none;
+  display: inline-block;
+}
+
+.field--label-inline .field--label, .field--label-inline > .field--item, .field--label-inline .field--items {
+   padding-right: .25em;
 }
 
 .flex-height {
