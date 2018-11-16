@@ -18,9 +18,12 @@ module:
   devel: 0
   di_media: 0
   di_nodes: 0
+  di_nodes_landing_page: 0
   di_nodes_person: 0
+  di_paragraphs: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference_revisions: 0
   features: 0
   features_ui: 0
   field: 0
@@ -63,9 +66,11 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  viewsreference: 0
   menu_link_content: 1
   pathauto: 1
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   stable: 0

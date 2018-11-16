@@ -1,0 +1,23 @@
+uuid: 93b38f50-3d7a-499b-a99a-6facb14ec067
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_caption
+    - paragraphs.paragraphs_type.media
+  module:
+    - text
+_core:
+  default_config_hash: '-b5nY_k24Y2IzfGRPxr0Rrq4wDqnTph3pEcyCoIXrPI'
+id: paragraph.media.field_media_caption
+field_name: field_media_caption
+entity_type: paragraph
+bundle: media
+label: Caption
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
