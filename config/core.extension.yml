@@ -1,4 +1,6 @@
 module:
+  addtoany: 0
+  asset_injector: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -18,7 +20,9 @@ module:
   devel: 0
   di_media: 0
   di_nodes: 0
+  di_nodes_article: 0
   di_nodes_landing_page: 0
+  di_nodes_page: 0
   di_nodes_person: 0
   di_paragraphs: 0
   dynamic_page_cache: 0
@@ -41,6 +45,7 @@ module:
   image_widget_crop: 0
   inline_entity_form: 0
   link: 0
+  linkit: 0
   maxlength: 0
   media: 0
   media_library: 0
@@ -65,8 +70,10 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_bulk_operations: 0
   views_ui: 0
   viewsreference: 0
+  extlink: 1
   menu_link_content: 1
   pathauto: 1
   views: 10

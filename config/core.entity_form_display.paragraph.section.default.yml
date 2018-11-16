@@ -4,12 +4,28 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.section.field_section_content
+    - field.field.paragraph.section.field_section_palette_list
     - field.field.paragraph.section.field_section_width
     - paragraphs.paragraphs_type.section
   module:
+    - field_group
     - paragraphs
-_core:
-  default_config_hash: V78p_N7sE1w-w2jtFa_H_-F6__k7C5GGqVFJY4ZO-HI
+third_party_settings:
+  field_group:
+    group_background_options:
+      children:
+        - field_section_palette_list
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        label: 'Color palette options'
+        required_fields: true
+        id: ''
+        classes: ''
+        open: false
+      label: 'Color palette options'
+      region: content
 id: paragraph.section.default
 targetEntityType: paragraph
 bundle: section
@@ -22,7 +38,7 @@ content:
       title: chunk
       title_plural: chunk
       edit_mode: closed
-      closed_mode: preview
+      closed_mode: summary
       autocollapse: all
       add_mode: modal
       form_display_mode: default
@@ -32,6 +48,12 @@ content:
         collapse_edit_all: collapse_edit_all
         add_above: add_above
     third_party_settings: {  }
+    region: content
+  field_section_palette_list:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
     region: content
   field_section_width:
     weight: 4

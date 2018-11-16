@@ -1,0 +1,23 @@
+uuid: 9e701d5e-2e64-4dcd-aa1c-904393663083
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_text
+    - node.type.page
+  module:
+    - text
+_core:
+  default_config_hash: Rgotu3UKo50APVOW0zPslNt9_F8IEYJWMxMPePfvHPY
+id: node.page.field_teaser_text
+field_name: field_teaser_text
+entity_type: node
+bundle: page
+label: 'Teaser text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
