@@ -38,6 +38,8 @@ settings:
           items:
             - BulletedList
             - NumberedList
+            - Outdent
+            - Indent
         -
           name: Media
           items:

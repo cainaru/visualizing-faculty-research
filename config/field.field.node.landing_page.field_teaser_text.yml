@@ -6,7 +6,15 @@ dependencies:
     - field.storage.node.field_teaser_text
     - node.type.landing_page
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    simple: simple
+    plain_text: plain_text
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
 _core:
   default_config_hash: DrHo7TU7ndjWS4Ys-CM9z6EjSKL5eFAUroysZM_Iy4I
 id: node.landing_page.field_teaser_text
