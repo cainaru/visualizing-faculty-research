@@ -1,0 +1,11 @@
+uuid: 4cab89c9-3e95-4805-90a4-8f50e98e246c
+langcode: en
+status: true
+dependencies: {  }
+id: content_manager
+label: 'Content manager'
+weight: -7
+is_admin: null
+permissions:
+  - 'use text format basic_html'
+  - 'use text format simple'

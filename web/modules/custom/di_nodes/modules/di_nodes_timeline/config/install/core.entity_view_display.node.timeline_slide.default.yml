@@ -1,0 +1,108 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.timeline_slide.body
+    - field.field.node.timeline_slide.field_authorship
+    - field.field.node.timeline_slide.field_display_date
+    - field.field.node.timeline_slide.field_end_date
+    - field.field.node.timeline_slide.field_media
+    - field.field.node.timeline_slide.field_media_caption_formatted
+    - field.field.node.timeline_slide.field_start_date
+    - field.field.node.timeline_slide.field_timeline_item_bg_color
+    - field.field.node.timeline_slide.field_timeline_slide_bg_image
+    - field.field.node.timeline_slide.field_type_of_slide
+    - node.type.timeline_slide
+  module:
+    - color_field
+    - datetime
+    - text
+    - user
+id: node.timeline_slide.default
+targetEntityType: node
+bundle: timeline_slide
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_authorship:
+    weight: 0
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_display_date:
+    weight: 5
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_end_date:
+    type: datetime_default
+    weight: 7
+    region: content
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: timeline
+    third_party_settings: {  }
+  field_media:
+    type: entity_reference_entity_view
+    weight: 2
+    label: visually_hidden
+    settings:
+      view_mode: timeline_slide
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_media_caption_formatted:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_start_date:
+    type: datetime_default
+    weight: 6
+    region: content
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: timeline
+    third_party_settings: {  }
+  field_timeline_item_bg_color:
+    type: color_field_formatter_text
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+  field_timeline_slide_bg_image:
+    type: entity_reference_entity_view
+    weight: 1
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  content_moderation_control: true
+  field_type_of_slide: true

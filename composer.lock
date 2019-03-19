@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76ba9c02aa4d8163007f51c31f2be230",
+    "content-hash": "5f6ae966019f31ce560dd417fdcdbfc9",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -7614,6 +7614,29 @@
             "time": "2019-03-07T14:28:20+00:00"
         },
         {
+            "name": "stlawu/di_nodes",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stlawu/di_nodes",
+                "reference": "45a57d1210d1610025117924165130300d62fa6b"
+            },
+            "type": "drupal-custom-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Epic field storage for multiple content types for Digital Initiatives.",
+            "homepage": "https://github.com/stlawu/di_nodes",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "issues": "",
+                "source": ""
+            },
+            "time": "2019-03-07T17:16:00+00:00"
+        },
+        {
             "name": "stlawu/di_paragraphs",
             "version": "v0.2.3",
             "source": {
@@ -7635,6 +7658,29 @@
                 "source": ""
             },
             "time": "2019-03-15T18:07:12+00:00"
+        },
+        {
+            "name": "stlawu/di_taxonomies",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stlawu/di_taxonomies",
+                "reference": "43185e2af966c75d84f0e36d65f184e61eb1e8c7"
+            },
+            "type": "drupal-custom-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Commonly used taxonomies.",
+            "homepage": "https://github.com/stlawu/di_taxonomies",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "issues": "",
+                "source": ""
+            },
+            "time": "2019-03-07T14:55:01+00:00"
         },
         {
             "name": "symfony-cmf/routing",

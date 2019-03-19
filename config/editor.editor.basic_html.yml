@@ -19,6 +19,14 @@ settings:
           items:
             - Bold
             - Italic
+            - Superscript
+            - Subscript
+            - '-'
+            - RemoveFormat
+        -
+          name: Symbols
+          items:
+            - SpecialChar
         -
           name: Linking
           items:
@@ -33,18 +41,18 @@ settings:
           name: Media
           items:
             - Blockquote
-            - DrupalImage
         -
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:
             - Source
   plugins:
     stylescombo:
-      styles: ''
+      styles: 'p.lead|Lead paragraph'
     drupallink:
       linkit_enabled: true
       linkit_profile: default

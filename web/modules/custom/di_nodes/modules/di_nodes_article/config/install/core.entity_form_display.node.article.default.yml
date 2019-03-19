@@ -65,8 +65,6 @@ third_party_settings:
         required_fields: true
       label: 'Main content'
       region: content
-_core:
-  default_config_hash: vPb_yvhA-xuNoV_yOmOwYxGuHNRIH1CoMK2qi7BSga0
 id: node.article.default
 targetEntityType: node
 bundle: article

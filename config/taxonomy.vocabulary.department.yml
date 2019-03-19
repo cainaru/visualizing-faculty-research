@@ -2,6 +2,8 @@ uuid: 3fd4a9d3-d18d-4991-bacb-c6240def6524
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: JVqNpLj0BugXBFbyP0KcQ0UK_pnEPDFobfd6ZQeOJj8
 name: Department
 vid: department
 description: 'Use department to group content with academic or administrative departments.'

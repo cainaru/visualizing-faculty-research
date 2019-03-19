@@ -1,0 +1,11 @@
+uuid: 52694668-2cff-4ee4-ad3b-dab077c8e5ac
+langcode: en
+status: true
+dependencies: {  }
+id: content_creator
+label: 'Content creator'
+weight: -8
+is_admin: null
+permissions:
+  - 'use text format basic_html'
+  - 'use text format simple'

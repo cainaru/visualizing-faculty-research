@@ -25,6 +25,10 @@ settings:
             - '-'
             - RemoveFormat
         -
+          name: Symbols
+          items:
+            - SpecialChar
+        -
           name: Linking
           items:
             - DrupalLink
@@ -38,13 +42,13 @@ settings:
           name: Media
           items:
             - Blockquote
-            - DrupalImage
             - Table
             - HorizontalRule
         -
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:
@@ -52,7 +56,7 @@ settings:
             - Source
   plugins:
     stylescombo:
-      styles: ''
+      styles: 'p.lead|Lead paragraph'
     drupallink:
       linkit_enabled: true
       linkit_profile: default

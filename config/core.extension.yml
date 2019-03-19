@@ -25,6 +25,7 @@ module:
   di_nodes_page: 0
   di_nodes_person: 0
   di_paragraphs: 0
+  di_taxonomies_department: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0

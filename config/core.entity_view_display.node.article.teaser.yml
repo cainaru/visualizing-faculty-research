@@ -23,11 +23,6 @@ targetEntityType: node
 bundle: article
 mode: teaser
 content:
-  addtoany:
-    weight: 5
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   field_release_date:
     type: datetime_custom
     weight: 0
@@ -59,6 +54,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   body: true
   comment: true
   field_last_updated: true

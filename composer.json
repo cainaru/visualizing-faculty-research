@@ -18,7 +18,15 @@
         },
         {
             "type": "git",
+            "url": "https://github.com/stlawu/di_nodes"
+        },
+        {
+            "type": "git",
             "url": "https://github.com/stlawu/di_paragraphs"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/stlawu/di_taxonomies"
         }
     ],
     "require": {
@@ -86,7 +94,9 @@
         "pantheon-systems/quicksilver-pushback": "~1",
         "rvtraveller/qs-composer-installer": "^1.1",
         "stlawu/di_media": "^0.5.3",
+        "stlawu/di_nodes": "^0.3.2",
         "stlawu/di_paragraphs": "^0.2.3",
+        "stlawu/di_taxonomies": "^0.1.0",
         "webflo/drupal-core-strict": "^8",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
