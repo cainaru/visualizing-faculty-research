@@ -1,0 +1,9 @@
+uuid: 5d756ef4-1230-46d6-9917-d0dbed2b053b
+langcode: en
+status: true
+dependencies: {  }
+id: heading
+label: Heading
+icon_uuid: null
+description: 'Use <em>heading</em> to add headings.'
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: 2953290d-1006-41e4-8c6d-0591a7439ba3
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.basic
+label: Basic
+targetEntityType: media
+cache: true

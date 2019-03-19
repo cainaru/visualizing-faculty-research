@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec180bab62e366d7d272aa5556c6baf9",
+    "content-hash": "76ba9c02aa4d8163007f51c31f2be230",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -7591,6 +7591,52 @@
             "time": "2019-01-19T21:25:25+00:00"
         },
         {
+            "name": "stlawu/di_media",
+            "version": "v0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stlawu/di_media",
+                "reference": "5ab39009c5ef3dc224ce84b29788123754af308d"
+            },
+            "type": "drupal-custom-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Awesome media handing for Digital Initiatives projects. So LIT, you shouldn’t touch with bare hands.",
+            "homepage": "https://github.com/stlawu/di_media",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "issues": "",
+                "source": ""
+            },
+            "time": "2019-03-07T14:28:20+00:00"
+        },
+        {
+            "name": "stlawu/di_paragraphs",
+            "version": "v0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stlawu/di_paragraphs",
+                "reference": "5f0d63cb805c291cf8d0c9ca3f0883f7799fe839"
+            },
+            "type": "drupal-custom-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Paragraphs and shared fields.",
+            "homepage": "https://github.com/stlawu/di_paragraphs",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "issues": "",
+                "source": ""
+            },
+            "time": "2019-03-15T18:07:12+00:00"
+        },
+        {
             "name": "symfony-cmf/routing",
             "version": "1.4.1",
             "source": {
@@ -11289,6 +11335,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {

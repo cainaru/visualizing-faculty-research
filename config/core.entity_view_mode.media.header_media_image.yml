@@ -1,0 +1,10 @@
+uuid: 69ac6dbd-fd23-4395-86a8-185dc241057a
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.header_media_image
+label: 'Header Media Image Full-width'
+targetEntityType: media
+cache: true
