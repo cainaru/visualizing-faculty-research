@@ -56,4 +56,11 @@
 .page-node-type-landing-page .region-content {
   margin-bottom: -28px; }
 
+.paragraph--type--text + .paragraph--type--media,
+.paragraph--type--media + .paragraph--type--text {
+  margin-top: 14px; }
+
+.paragraph--type--text + .paragraph--type--view {
+  margin-top: 28px; }
+
 /*# sourceMappingURL=landing-page.css.map */
