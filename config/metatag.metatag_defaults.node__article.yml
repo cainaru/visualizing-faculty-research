@@ -1,24 +1,22 @@
-uuid: fcb1baf7-667a-4f5e-8a82-e5d1270f5490
+uuid: dced67bb-9fac-456b-bd8b-785fb27612f0
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
-id: front
-label: 'Front page'
+id: node__article
+label: 'Content: Article'
 tags:
-  shortlink: '[site:url]'
-  title: '[site:name] | St. Lawrence University'
-  canonical_url: '[site:url]'
+  title: '[node:title] | [site:name] | St. Lawrence University'
+  canonical_url: '[node:url]'
   description: '[node:field_teaser_text]'
   image_src: '[node:field_teaser_media:entity:field_media_image:entity:url]'
-  og_type: website
+  og_type: article
   og_image: '[node:field_teaser_media:entity:field_media_image:facebook_rectangle:url]'
-  og_url: '[site:url]'
+  og_url: '[node:url]'
   og_description: '[node:field_teaser_text]'
   og_site_name: '[site:name] | St. Lawrence University'
+  og_title: '[node:title]'
   twitter_cards_image: '[node:field_teaser_media:entity:field_media_image:twitter_rectangle:url]'
-  twitter_cards_page_url: '[site:url]'
+  twitter_cards_page_url: '[node:url]'
   twitter_cards_description: '[node:field_teaser_text]'
-  twitter_cards_type: summary_large_image
-  twitter_cards_title: '[site:name] | St. Lawrence University'
+  twitter_cards_type: summary
+  twitter_cards_title: '[node:title]'
