@@ -58,11 +58,11 @@ filters:
     weight: -48
     settings:
       title: true
-  filter_html_image_secure:
-    id: filter_html_image_secure
+  filter_html_escape:
+    id: filter_html_escape
     provider: filter
-    status: true
-    weight: -45
+    status: false
+    weight: -42
     settings: {  }
   filter_autop:
     id: filter_autop
@@ -70,9 +70,9 @@ filters:
     status: false
     weight: -41
     settings: {  }
-  filter_html_escape:
-    id: filter_html_escape
+  filter_html_image_secure:
+    id: filter_html_image_secure
     provider: filter
-    status: false
-    weight: -42
+    status: true
+    weight: -45
     settings: {  }

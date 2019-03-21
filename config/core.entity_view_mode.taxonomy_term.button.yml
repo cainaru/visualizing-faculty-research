@@ -1,0 +1,10 @@
+uuid: 3d186f51-9124-414d-82a1-f6b4ed9a682c
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.button
+label: Button
+targetEntityType: taxonomy_term
+cache: true
