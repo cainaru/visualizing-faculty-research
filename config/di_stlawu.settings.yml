@@ -3,7 +3,7 @@ fluid_container: 1
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: /themes/custom/di_stlawu/favicon.ico
+  url: '/themes/custom/di_stlawu/favicon.ico'
   use_default: true
 schemas:
   bootstrap: 8000
@@ -37,10 +37,11 @@ logo:
   use_default: false
 breadcrumb: '0'
 breadcrumb_title: 0
+_core:
+  default_config_hash: xDX-G-cNCoLMHAeTDpbLAw1gSylNOy-d0j_5xjmmBl0
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
-_core:
-  default_config_hash: xDX-G-cNCoLMHAeTDpbLAw1gSylNOy-d0j_5xjmmBl0
+navbar_position: static-top

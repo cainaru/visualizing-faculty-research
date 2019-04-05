@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.teaser_alternate
     - node.type.article
   module:
     - node
@@ -55,14 +56,14 @@ display:
       style:
         type: default
         options:
-          row_class: 'col-xs-12 col-sm-6 col-md-6 col-lg-6'
+          row_class: ''
           default_row_class: false
           uses_fields: false
       row:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: teaser
+          view_mode: teaser_alternate
       fields:
         title:
           id: title
@@ -162,9 +163,9 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  block_1:
+  block_recent_news:
     display_plugin: block
-    id: block_1
+    id: block_recent_news
     display_title: 'Recent news'
     position: 1
     display_options:
@@ -183,7 +184,9 @@ display:
         filters: false
         filter_groups: false
         footer: false
-      css_class: 'clearfix row'
+        style: false
+        row: false
+      css_class: 'view-d-flex view-flex-wrap row clearfix'
       pager:
         type: some
         options:
@@ -264,6 +267,17 @@ display:
           tokenize: false
           content: '<a class="btn btn-scarlet" href="/news">View all news</a>'
           plugin_id: text_custom
+      style:
+        type: default
+        options:
+          row_class: 'col-xs-12 col-sm-6 col-md-4 col-lg-4'
+          default_row_class: false
+          uses_fields: false
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: teaser
     cache_metadata:
       max-age: -1
       contexts:
@@ -283,19 +297,8 @@ display:
       title: News
       defaults:
         title: false
-        style: false
-        row: false
-      style:
-        type: default
-        options:
-          row_class: 'col-xs-12 col-sm-12 col-md-12 col-lg-12'
-          default_row_class: false
-          uses_fields: false
-      row:
-        type: 'entity:node'
-        options:
-          relationship: none
-          view_mode: teaser
+        style: true
+        row: true
     cache_metadata:
       max-age: -1
       contexts:
