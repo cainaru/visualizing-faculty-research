@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.person.field_person_department
     - field.field.node.person.field_person_email
     - field.field.node.person.field_person_fax
+    - field.field.node.person.field_person_interests
     - field.field.node.person.field_person_links
     - field.field.node.person.field_person_name
     - field.field.node.person.field_person_office_location
@@ -82,6 +83,7 @@ third_party_settings:
     group_main_content:
       children:
         - field_person_biography
+        - field_person_interests
       parent_name: ''
       weight: -6
       format_type: fieldset
@@ -166,6 +168,15 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: telephone_default
+    region: content
+  field_person_interests:
+    weight: 132
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
     region: content
   field_person_links:
     weight: 130

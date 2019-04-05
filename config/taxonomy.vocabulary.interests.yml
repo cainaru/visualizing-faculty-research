@@ -1,0 +1,9 @@
+uuid: 276611fc-9ef2-4645-abdd-1ae7af6aaf3c
+langcode: en
+status: true
+dependencies: {  }
+name: Interests
+vid: interests
+description: 'Use interests to indicate a person''s interests.'
+hierarchy: 0
+weight: 0

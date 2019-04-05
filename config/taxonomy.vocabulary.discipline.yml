@@ -1,0 +1,9 @@
+uuid: 93bfdc2b-0ea2-4c96-a57d-6178b5a7e4a9
+langcode: en
+status: true
+dependencies: {  }
+name: Discipline
+vid: discipline
+description: 'Use discipline to group content of similar disciplines.'
+hierarchy: 0
+weight: 0

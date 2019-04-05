@@ -1,0 +1,10 @@
+uuid: 032e026f-1f2a-4ad9-9c5f-5ccb04de0454
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.person_teaser
+label: 'Person teaser'
+targetEntityType: media
+cache: true
