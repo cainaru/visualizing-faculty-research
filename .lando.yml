@@ -1,4 +1,4 @@
-name: theme-visualizing-faculty-research
+name: visualizing-faculty-research
 recipe: pantheon
 config:
   framework: drupal8
