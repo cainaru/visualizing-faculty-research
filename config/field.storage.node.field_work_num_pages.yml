@@ -1,0 +1,21 @@
+uuid: 8c686933-9318-43a2-9fe0-adf62df6b055
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_work_num_pages
+field_name: field_work_num_pages
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

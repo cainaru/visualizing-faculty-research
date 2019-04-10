@@ -1,0 +1,20 @@
+uuid: ce284e9a-8752-48b5-b64c-bd4f72b17ad9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_work_publisher
+field_name: field_work_publisher
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

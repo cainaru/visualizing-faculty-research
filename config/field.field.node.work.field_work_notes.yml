@@ -1,0 +1,29 @@
+uuid: ab2c2e09-c0ae-42e2-91a0-d57e30c6b4a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_notes
+    - node.type.work
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    basic_html: '0'
+    restricted_html: '0'
+    simple: '0'
+    full_html: '0'
+    plain_text: '0'
+id: node.work.field_work_notes
+field_name: field_work_notes
+entity_type: node
+bundle: work
+label: Notes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

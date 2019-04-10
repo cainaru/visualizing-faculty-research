@@ -1,0 +1,29 @@
+uuid: e1f993ad-8486-46c2-94bd-312952e99816
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_item_type
+    - node.type.work
+    - taxonomy.vocabulary.item_type
+id: node.work.field_work_item_type
+field_name: field_work_item_type
+entity_type: node
+bundle: work
+label: 'Item type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      item_type: item_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

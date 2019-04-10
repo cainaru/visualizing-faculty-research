@@ -1,0 +1,9 @@
+uuid: a86fbc16-b86c-4332-8921-3584077a3708
+langcode: en
+status: true
+dependencies: {  }
+name: 'Item type'
+vid: item_type
+description: 'Use item type to indicate whether a work is a book, journal article, etc.'
+hierarchy: 0
+weight: 0

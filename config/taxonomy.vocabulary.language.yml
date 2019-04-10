@@ -1,0 +1,9 @@
+uuid: db71ba4b-86aa-4ab8-aeb2-18e994434f6b
+langcode: en
+status: true
+dependencies: {  }
+name: Language
+vid: language
+description: 'Use language to note the language of a work.'
+hierarchy: 0
+weight: 0

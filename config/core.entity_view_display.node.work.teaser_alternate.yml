@@ -1,0 +1,254 @@
+uuid: a622d6e6-95a8-4382-86dd-e19dacdfd3cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_alternate
+    - field.field.node.work.body
+    - field.field.node.work.field_meta_tags
+    - field.field.node.work.field_work_abstract_note
+    - field.field.node.work.field_work_author
+    - field.field.node.work.field_work_doi
+    - field.field.node.work.field_work_extra
+    - field.field.node.work.field_work_isbn
+    - field.field.node.work.field_work_issn
+    - field.field.node.work.field_work_issue
+    - field.field.node.work.field_work_item_type
+    - field.field.node.work.field_work_key
+    - field.field.node.work.field_work_language
+    - field.field.node.work.field_work_notes
+    - field.field.node.work.field_work_num_pages
+    - field.field.node.work.field_work_pages
+    - field.field.node.work.field_work_place
+    - field.field.node.work.field_work_publication_title
+    - field.field.node.work.field_work_publication_year
+    - field.field.node.work.field_work_publisher
+    - field.field.node.work.field_work_series
+    - field.field.node.work.field_work_series_number
+    - field.field.node.work.field_work_series_text
+    - field.field.node.work.field_work_series_title
+    - field.field.node.work.field_work_short_title
+    - field.field.node.work.field_work_title
+    - field.field.node.work.field_work_url
+    - field.field.node.work.field_work_volume
+    - node.type.work
+  module:
+    - link
+    - text
+    - user
+id: node.work.teaser_alternate
+targetEntityType: node
+bundle: work
+mode: teaser_alternate
+content:
+  field_work_abstract_note:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_work_author:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_work_doi:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_extra:
+    weight: 26
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_isbn:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_issn:
+    weight: 10
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_issue:
+    weight: 16
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_item_type:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_work_key:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_language:
+    weight: 25
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_work_notes:
+    weight: 27
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_work_num_pages:
+    weight: 15
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_pages:
+    weight: 14
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_place:
+    weight: 24
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_work_publication_title:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_work_publication_year:
+    weight: 5
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_work_publisher:
+    weight: 23
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_work_series:
+    weight: 19
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_work_series_number:
+    weight: 20
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_series_text:
+    weight: 21
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_work_series_title:
+    weight: 22
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_short_title:
+    weight: 18
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_title:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_url:
+    weight: 12
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_work_volume:
+    weight: 17
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_meta_tags: true

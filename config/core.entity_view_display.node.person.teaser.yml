@@ -43,7 +43,7 @@ content:
     type: email_mailto
     weight: 4
     region: content
-    label: inline
+    label: hidden
     settings: {  }
     third_party_settings: {  }
   field_person_name:

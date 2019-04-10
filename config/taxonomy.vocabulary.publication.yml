@@ -1,0 +1,9 @@
+uuid: 869badae-44c6-4ced-b305-4d8531822488
+langcode: en
+status: true
+dependencies: {  }
+name: Publication
+vid: publication
+description: 'Use publication for the names of journals, etc.'
+hierarchy: 0
+weight: 0
