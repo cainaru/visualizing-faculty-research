@@ -5,5 +5,4 @@ dependencies: {  }
 name: Publication
 vid: publication
 description: 'Use publication for the names of journals, etc.'
-hierarchy: 0
 weight: 0

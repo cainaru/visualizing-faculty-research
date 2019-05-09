@@ -5,5 +5,4 @@ dependencies: {  }
 name: Publisher
 vid: publisher
 description: 'Use publisher for the names of publishers.'
-hierarchy: 0
 weight: 0

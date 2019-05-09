@@ -7,5 +7,4 @@ _core:
 name: Department
 vid: department
 description: 'Use department to group content with academic or administrative departments.'
-hierarchy: 0
 weight: 0

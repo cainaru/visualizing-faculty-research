@@ -5,5 +5,4 @@ dependencies: {  }
 name: Language
 vid: language
 description: 'Use language to note the language of a work.'
-hierarchy: 0
 weight: 0

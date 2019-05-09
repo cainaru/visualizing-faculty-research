@@ -5,5 +5,4 @@ dependencies: {  }
 name: Place
 vid: place
 description: 'Use place to indicate where a publisher is located.'
-hierarchy: 0
 weight: 0

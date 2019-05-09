@@ -5,5 +5,4 @@ dependencies: {  }
 name: Author
 vid: author
 description: 'Use author to note the author of a work.'
-hierarchy: 0
 weight: 0

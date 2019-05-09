@@ -5,5 +5,4 @@ dependencies: {  }
 name: Series
 vid: series
 description: 'Use series for the names of series.'
-hierarchy: 0
 weight: 0
