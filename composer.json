@@ -70,7 +70,7 @@
         "drupal/flag": "^4.0",
         "drupal/geocoder": "^2.0@beta",
         "drupal/geofield_map": "^2.18",
-        "drupal/geolocation": "^2.0",
+        "drupal/geolocation": "^3.0",
         "drupal/google_analytics": "^2.3",
         "drupal/image_effects": "^2.1",
         "drupal/image_widget_crop": "^2.2",
