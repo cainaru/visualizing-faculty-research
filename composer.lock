@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4ef1a1cbc28854696dc8144927c15a8",
+    "content-hash": "ada9cb25e427a15965af451fe59745ee",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
