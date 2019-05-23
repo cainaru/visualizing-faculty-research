@@ -52,7 +52,7 @@
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",
-        "drupal/core": "^8",
+        "drupal/core": "^8.6.15",
         "drupal/crop": "^2.0",
         "drupal/ctools": "^3.0",
         "drupal/devel": "^1.2",
@@ -109,7 +109,7 @@
         "stlawu/di_nodes": "^0.3.2",
         "stlawu/di_paragraphs": "^0.2.3",
         "stlawu/di_taxonomies": "^0.1.0",
-        "webflo/drupal-core-strict": "^8",
+        "webflo/drupal-core-strict": "^8.6.15",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
