@@ -1,0 +1,19 @@
+uuid: 6b8f6632-cef0-494e-b604-55ab7117e56f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_num_pages
+    - node.type.work
+id: node.work.field_work_num_pages
+field_name: field_work_num_pages
+entity_type: node
+bundle: work
+label: 'Num pages'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

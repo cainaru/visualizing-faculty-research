@@ -1,0 +1,19 @@
+uuid: 97c0916f-c281-4a2b-ae3f-d3c6ccba465c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_extra
+    - node.type.work
+id: node.work.field_work_extra
+field_name: field_work_extra
+entity_type: node
+bundle: work
+label: Extra
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

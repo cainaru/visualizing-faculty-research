@@ -1,0 +1,29 @@
+uuid: 584640ee-ae93-4db2-bf56-72487920381f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_publisher
+    - node.type.work
+    - taxonomy.vocabulary.publisher
+id: node.work.field_work_publisher
+field_name: field_work_publisher
+entity_type: node
+bundle: work
+label: Publisher
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      publisher: publisher
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

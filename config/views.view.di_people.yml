@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.teaser
     - core.entity_view_mode.node.teaser_alternate
     - node.type.person
   module:
@@ -172,6 +173,44 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  block_people_featured:
+    display_plugin: block
+    id: block_people_featured
+    display_title: 'Featured people'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      pager:
+        type: some
+        options:
+          items_per_page: 3
+          offset: 0
+      defaults:
+        pager: false
+        css_class: false
+        style: false
+        row: false
+      css_class: 'view-d-flex view-flex-wrap view-justify-content-center row clearfix'
+      style:
+        type: default
+        options:
+          row_class: 'col-xs-12 col-sm-12 col-md-3 col-lg-3'
+          default_row_class: false
+          uses_fields: false
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: teaser
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

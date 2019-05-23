@@ -39,7 +39,7 @@ content:
     region: content
   field_person_email:
     weight: 4
-    label: inline
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: email_mailto

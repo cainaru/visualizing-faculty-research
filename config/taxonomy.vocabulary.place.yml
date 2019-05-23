@@ -1,0 +1,8 @@
+uuid: add51f18-ef84-4ac6-ab28-f00ebc39743a
+langcode: en
+status: true
+dependencies: {  }
+name: Place
+vid: place
+description: 'Use place to indicate where a publisher is located.'
+weight: 0

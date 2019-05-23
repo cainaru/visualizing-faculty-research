@@ -1,0 +1,19 @@
+uuid: 5081b0f2-8238-4115-b671-f63bf7fdeedb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_series_number
+    - node.type.work
+id: node.work.field_work_series_number
+field_name: field_work_series_number
+entity_type: node
+bundle: work
+label: 'Series number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

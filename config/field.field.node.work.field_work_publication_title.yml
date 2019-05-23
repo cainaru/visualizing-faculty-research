@@ -1,0 +1,29 @@
+uuid: 1a672ab0-b0ef-4e4c-a6e0-c8561e290a39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_publication_title
+    - node.type.work
+    - taxonomy.vocabulary.publication
+id: node.work.field_work_publication_title
+field_name: field_work_publication_title
+entity_type: node
+bundle: work
+label: 'Publication title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      publication: publication
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

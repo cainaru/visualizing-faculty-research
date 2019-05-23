@@ -1,0 +1,8 @@
+uuid: 382cd051-64df-4774-9a01-060c0bde32fe
+langcode: en
+status: true
+dependencies: {  }
+name: Publisher
+vid: publisher
+description: 'Use publisher for the names of publishers.'
+weight: 0

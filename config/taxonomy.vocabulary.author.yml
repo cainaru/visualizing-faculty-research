@@ -1,0 +1,8 @@
+uuid: 4a13b137-698f-4520-8da4-6d9df4e289e7
+langcode: en
+status: true
+dependencies: {  }
+name: Author
+vid: author
+description: 'Use author to note the author of a work.'
+weight: 0

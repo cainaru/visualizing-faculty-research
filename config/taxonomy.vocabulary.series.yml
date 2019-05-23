@@ -1,0 +1,8 @@
+uuid: a26399c8-28c0-4491-8c35-c74034ddc392
+langcode: en
+status: true
+dependencies: {  }
+name: Series
+vid: series
+description: 'Use series for the names of series.'
+weight: 0
