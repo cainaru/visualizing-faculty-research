@@ -257,7 +257,12 @@ function di_stlawu_preprocess_paragraph__media(&$variables){
       $variables['has_transcript'] = !empty($has_transcript);
       // Render the media entity's field_media_transcript on media paragraph type.
       $transcript = $media->field_media_transcript->view(['label' => 'hidden']);
-      $variables['transcript'] = $transcript; 
+      $variables['transcript'] = $transcript;
+    }
+    // Setup align variable for template
+    if(!$p->field_media_align->isEmpty()){
+      $align = $p->field_media_align->get(0)->value;
+      $variables['align'] = 'align-' . $align;
     }
   }
 }
