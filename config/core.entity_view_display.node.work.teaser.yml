@@ -34,23 +34,15 @@ dependencies:
     - node.type.work
   module:
     - link
-    - text
     - user
 id: node.work.teaser
 targetEntityType: node
 bundle: work
 mode: teaser
 content:
-  field_work_abstract_note:
-    type: text_default
-    weight: 13
-    region: content
-    label: above
-    settings: {  }
-    third_party_settings: {  }
   field_work_author:
     type: entity_reference_label
-    weight: 6
+    weight: 0
     region: content
     label: above
     settings:
@@ -58,176 +50,90 @@ content:
     third_party_settings: {  }
   field_work_doi:
     type: string
-    weight: 11
+    weight: 10
     region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-  field_work_extra:
-    type: string
-    weight: 26
-    region: content
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
   field_work_isbn:
     type: string
-    weight: 9
+    weight: 11
     region: content
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
   field_work_issn:
     type: string
-    weight: 10
+    weight: 12
     region: content
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
   field_work_issue:
     type: string
-    weight: 16
+    weight: 5
     region: content
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
   field_work_item_type:
     type: entity_reference_label
-    weight: 4
+    weight: 8
     region: content
-    label: above
+    label: inline
     settings:
       link: true
-    third_party_settings: {  }
-  field_work_key:
-    type: string
-    weight: 3
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-  field_work_language:
-    type: entity_reference_label
-    weight: 25
-    region: content
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-  field_work_notes:
-    type: text_default
-    weight: 27
-    region: content
-    label: above
-    settings: {  }
     third_party_settings: {  }
   field_work_num_pages:
     type: string
-    weight: 15
+    weight: 7
     region: content
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
   field_work_pages:
     type: string
-    weight: 14
+    weight: 6
     region: content
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
-  field_work_place:
-    type: entity_reference_label
-    weight: 24
-    region: content
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
   field_work_publication_title:
     type: entity_reference_label
-    weight: 8
+    weight: 2
     region: content
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
   field_work_publication_year:
     type: number_integer
-    weight: 5
+    weight: 3
     region: content
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-  field_work_publisher:
-    type: entity_reference_label
-    weight: 23
-    region: content
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-  field_work_series:
-    type: entity_reference_label
-    weight: 19
-    region: content
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-  field_work_series_number:
-    type: string
-    weight: 20
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-  field_work_series_text:
-    type: text_default
-    weight: 21
-    region: content
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-  field_work_series_title:
-    type: string
-    weight: 22
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-  field_work_short_title:
-    type: string
-    weight: 18
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
   field_work_title:
     type: string
-    weight: 7
+    weight: 1
     region: content
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
   field_work_url:
     type: link
-    weight: 12
+    weight: 9
     region: content
-    label: above
+    label: inline
     settings:
       trim_length: 80
       url_only: false
@@ -237,9 +143,9 @@ content:
     third_party_settings: {  }
   field_work_volume:
     type: string
-    weight: 17
+    weight: 4
     region: content
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -252,3 +158,15 @@ hidden:
   addtoany: true
   body: true
   field_meta_tags: true
+  field_work_abstract_note: true
+  field_work_extra: true
+  field_work_key: true
+  field_work_language: true
+  field_work_notes: true
+  field_work_place: true
+  field_work_publisher: true
+  field_work_series: true
+  field_work_series_number: true
+  field_work_series_text: true
+  field_work_series_title: true
+  field_work_short_title: true
