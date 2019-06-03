@@ -324,12 +324,15 @@ address {
   }
 }
 
+.media-caption {
+  margin-top: 10px;
+}
+
 .field--name-field-media-caption,
 .field--name-field-media-description {
   color: #767676;
   font-size: $caption-font-size;
   line-height: 1.4;
-  margin-top: 10px;
 }
 
 .field--name-field-media-byline-freeform {
@@ -337,11 +340,4 @@ address {
   color: #767676;
   font-size: $caption-font-size;
   line-height: 1.4;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.field--name-field-media-caption + .field--name-field-media-byline-freeform,
-.field--name-field-media-description + .field--name-field-media-byline-freeform {
-  margin-top: 0;
 }

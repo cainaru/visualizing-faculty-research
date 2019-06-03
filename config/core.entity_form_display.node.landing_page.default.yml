@@ -107,7 +107,8 @@ content:
     region: content
   field_teaser_media:
     weight: -2
-    settings: {  }
+    settings:
+      media_types: {  }
     third_party_settings: {  }
     type: media_library_widget
     region: content

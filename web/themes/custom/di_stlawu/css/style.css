@@ -5790,24 +5790,20 @@ address {
     .field--name-field-tags .field--item a.btn {
       text-transform: none; }
 
+.media-caption {
+  margin-top: 10px; }
+
 .field--name-field-media-caption,
 .field--name-field-media-description {
   color: #767676;
   font-size: 14px;
-  line-height: 1.4;
-  margin-top: 10px; }
+  line-height: 1.4; }
 
 .field--name-field-media-byline-freeform {
   font-style: italic;
   color: #767676;
   font-size: 14px;
-  line-height: 1.4;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.field--name-field-media-caption + .field--name-field-media-byline-freeform,
-.field--name-field-media-description + .field--name-field-media-byline-freeform {
-  margin-top: 0; }
+  line-height: 1.4; }
 
 code,
 kbd,
