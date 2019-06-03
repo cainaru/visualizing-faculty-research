@@ -328,14 +328,14 @@ address {
   margin-top: 10px;
 }
 
-.field--name-field-media-caption,
-.field--name-field-media-description {
+.media-caption .field--name-field-media-caption,
+.media-caption .field--name-field-media-description {
   color: #767676;
   font-size: $caption-font-size;
   line-height: 1.4;
 }
 
-.field--name-field-media-byline-freeform {
+.media-caption .field--name-field-media-byline-freeform {
   font-style: italic;
   color: #767676;
   font-size: $caption-font-size;
