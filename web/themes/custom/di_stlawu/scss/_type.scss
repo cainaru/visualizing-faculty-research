@@ -324,24 +324,20 @@ address {
   }
 }
 
-.field--name-field-media-caption,
-.field--name-field-media-description {
-  color: #767676;
-  font-size: 14px;
-  line-height: 1.4;
+.media-caption {
   margin-top: 10px;
 }
 
-.field--name-field-media-byline-freeform {
+.media-caption .field--name-field-media-caption,
+.media-caption .field--name-field-media-description {
+  color: #767676;
+  font-size: $caption-font-size;
+  line-height: 1.4;
+}
+
+.media-caption .field--name-field-media-byline-freeform {
   font-style: italic;
   color: #767676;
-  font-size: 14px;
+  font-size: $caption-font-size;
   line-height: 1.4;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.field--name-field-media-caption + .field--name-field-media-byline-freeform,
-.field--name-field-media-description + .field--name-field-media-byline-freeform {
-  margin-top: 0;
 }

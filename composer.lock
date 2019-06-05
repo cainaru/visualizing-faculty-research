@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ada9cb25e427a15965af451fe59745ee",
+    "content-hash": "c12e5d1f2ac9ef3e25ede0fdc3e00488",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -8492,11 +8492,11 @@
         },
         {
             "name": "stlawu/di_paragraphs",
-            "version": "v0.2.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stlawu/di_paragraphs",
-                "reference": "5f0d63cb805c291cf8d0c9ca3f0883f7799fe839"
+                "reference": "d0f80018376c2470814aa3f2eca2031172040bba"
             },
             "type": "drupal-custom-module",
             "license": [
@@ -8511,7 +8511,7 @@
                 "issues": "",
                 "source": ""
             },
-            "time": "2019-03-15T18:07:12+00:00"
+            "time": "2019-06-03T17:44:13+00:00"
         },
         {
             "name": "stlawu/di_taxonomies",
@@ -12798,7 +12798,8 @@
     "stability-flags": {
         "drupal/geocoder": 10,
         "drupal/leaflet": 10,
-        "drupal/simple_block": 10
+        "drupal/simple_block": 10,
+        "stlawu/di_paragraphs": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

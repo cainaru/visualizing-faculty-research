@@ -44,6 +44,7 @@ content:
     weight: 1
     region: content
     settings:
+      show_crop_area: true
       show_default_crop: true
       warn_multiple_usages: true
       preview_image_style: thumbnail
@@ -59,7 +60,6 @@ content:
       crop_types_required:
         - generic_1_1
       progress_indicator: throbber
-      show_crop_area: false
     third_party_settings: {  }
   name:
     type: string_textfield

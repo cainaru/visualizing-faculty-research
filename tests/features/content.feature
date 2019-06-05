@@ -73,16 +73,16 @@ Feature: Content
 #    When I am viewing a "tags" term with the name "My tag"
 #    Then I should see the heading "My tag"
 
-  @api
-  Scenario: Create many terms
-    Given "tags" terms:
-    | name    |
-    | Tag one |
-    | Tag two |
-    And I am logged in as a user with the "administrator" role
-    When I go to "admin/structure/taxonomy/manage/tags/overview"
-    Then I should see "Tag one"
-    And I should see "Tag two"
+#  @api
+#  Scenario: Create many terms
+#    Given "tags" terms:
+#    | name    |
+#    | Tag one |
+#    | Tag two |
+#    And I am logged in as a user with the "administrator" role
+#    When I go to "admin/structure/taxonomy/manage/tags/overview"
+#    Then I should see "Tag one"
+#    And I should see "Tag two"
 
 # @api
 # Scenario: Create nodes with specific authorship
