@@ -48,6 +48,7 @@
         "drupal/block_class": "^1.0",
         "drupal/block_visibility_groups": "^1.3",
         "drupal/bootstrap": "^3.13",
+        "drupal/chosen": "^2.7",
         "drupal/color_field": "^2.0",
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
@@ -101,6 +102,7 @@
         "drupal/webform": "^5.1",
         "drush-ops/behat-drush-endpoint": "^8",
         "drush/drush": "~8",
+        "harvesthq/chosen": "^1.8.0",
         "npm-asset/sortablejs": "1.8.0-RC1",
         "oomphinc/composer-installers-extender": "^1.1",
         "pantheon-systems/quicksilver-pushback": "~1",
@@ -167,6 +169,9 @@
         ],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
+            "web/libraries/chosen": [
+                "harvesthq/chosen"
+            ],
             "web/libraries/easing": [
                 "bower-asset/jquery.easing"
             ],
