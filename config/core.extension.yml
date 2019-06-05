@@ -9,6 +9,8 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  chosen: 0
+  chosen_lib: 0
   ckeditor: 0
   color: 0
   comment: 0
@@ -70,7 +72,9 @@ module:
   shortcut: 0
   simple_block: 0
   slick: 0
+  slick_paragraphs: 0
   slick_ui: 0
+  slick_views: 0
   system: 0
   taxonomy: 0
   telephone: 0
