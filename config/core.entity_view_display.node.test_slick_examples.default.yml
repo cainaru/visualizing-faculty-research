@@ -1,0 +1,50 @@
+uuid: f4616cd7-10fc-443b-b1c4-3ded04b78836
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test_slick_examples.body
+    - field.field.node.test_slick_examples.field_image
+    - field.field.node.test_slick_examples.field_images
+    - node.type.test_slick_examples
+  module:
+    - image
+    - text
+    - user
+id: node.test_slick_examples.default
+targetEntityType: node
+bundle: test_slick_examples
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_images:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true

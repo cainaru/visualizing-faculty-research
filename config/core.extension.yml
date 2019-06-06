@@ -24,6 +24,7 @@ module:
   datetime: 0
   dblog: 0
   devel: 0
+  devel_generate: 0
   di_media: 0
   di_nodes: 0
   di_nodes_article: 0
@@ -72,6 +73,8 @@ module:
   shortcut: 0
   simple_block: 0
   slick: 0
+  slick_example: 0
+  slick_extras: 0
   slick_paragraphs: 0
   slick_ui: 0
   slick_views: 0
