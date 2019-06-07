@@ -1,0 +1,22 @@
+uuid: f2944611-dc70-4668-943d-377dd9282155
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - slick_example
+_core:
+  default_config_hash: gSXE7wA5K64zrRQKGqwuVVLV8ISQ8cKZIiwECdNc0Wo
+id: x_slick_for
+name: x_slick_for
+label: 'X Slick for'
+weight: -2
+group: main
+skin: classic
+breakpoints: 0
+optimized: true
+options:
+  settings:
+    arrows: false
+    lazyLoad: ondemand
+    slidesToShow: 1

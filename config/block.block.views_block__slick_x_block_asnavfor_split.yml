@@ -1,0 +1,32 @@
+uuid: 53ffb35d-923d-4eeb-9e4f-f8e1a74bc4b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slick_x
+  module:
+    - ctools
+    - views
+  theme:
+    - di_stlawu
+id: views_block__slick_x_block_asnavfor_split
+theme: di_stlawu
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:slick_x-block_asnavfor_split'
+settings:
+  id: 'views_block:slick_x-block_asnavfor_split'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      test_slick_examples: test_slick_examples
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

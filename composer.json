@@ -94,6 +94,7 @@
         "drupal/search_api_pantheon": "^1.0",
         "drupal/simple_block": "^1.0@beta",
         "drupal/slick": "^1.1",
+        "drupal/slick_extras": "^1.0",
         "drupal/slick_paragraphs": "^1.0",
         "drupal/slick_views": "^1.0",
         "drupal/views_bootstrap": "^3.1",

@@ -1,0 +1,31 @@
+uuid: 06c0fcd5-43ae-4803-8db2-0d847922bf5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.test_slick_examples.body
+    - node.type.test_slick_examples
+  module:
+    - text
+    - user
+id: node.test_slick_examples.teaser
+targetEntityType: node
+bundle: test_slick_examples
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true

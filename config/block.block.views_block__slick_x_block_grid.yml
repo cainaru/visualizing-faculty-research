@@ -1,0 +1,32 @@
+uuid: ae309c55-a455-40f3-b46a-070919c20652
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slick_x
+  module:
+    - ctools
+    - views
+  theme:
+    - di_stlawu
+id: views_block__slick_x_block_grid
+theme: di_stlawu
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:slick_x-block_grid'
+settings:
+  id: 'views_block:slick_x-block_grid'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      test_slick_examples: test_slick_examples
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
