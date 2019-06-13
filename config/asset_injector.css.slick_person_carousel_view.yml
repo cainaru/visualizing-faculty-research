@@ -1,0 +1,11 @@
+uuid: e1979464-8be4-4881-acf5-374c63c59c97
+langcode: en
+status: false
+dependencies: {  }
+id: slick_person_carousel_view
+label: 'Slick Person Carousel View'
+code: "#slick-views-slick-person-carousel-block-1-1-thumbnail img ,\r\n#slick-views-slick-person-carousel-block-1-1 img {\r\n    width: 280px;\r\n}\r\n#slick-views-slick-person-carousel-block-1-1 {\r\n    width: 600px;\r\n    background: black;\r\n    position: absolute;\r\n    top: 0;\r\n    z-index: 10;\r\n}\r\n#slick-views-slick-person-carousel-block-1-1 img {\r\n    margin: 0;\r\n}\r\n\r\n#slick-views-slick-person-carousel-block-1-1-thumbnail {\r\n    padding-left: 320px;\r\n    float: right;\r\n}\r\n#slick-views-slick-person-carousel-block-1-1-thumbnail .slick-slide{\r\n    padding-top: 20px;\r\n    padding-left: 20px;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

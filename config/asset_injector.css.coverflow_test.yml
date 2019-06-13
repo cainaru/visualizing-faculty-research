@@ -1,0 +1,11 @@
+uuid: 0791de4e-b1c6-4346-bb06-212169f134e9
+langcode: en
+status: true
+dependencies: {  }
+id: coverflow_test
+label: 'Coverflow Test'
+code: "#slick-views-coverflow-test-page-1-1 .slick-slide img{\r\n    padding: 20px 30px 0;\r\n}\r\n#slick-views-coverflow-test-page-1-1 .slick-active img{\r\n    padding: 10px 15px 0;\r\n}\r\n#slick-views-coverflow-test-page-1-1 .slick-current img{\r\n    padding: 0 0 0;\r\n}\r\n#slick-views-coverflow-test-page-1-1 .slick-slide .slide__caption {\r\n    display: none;\r\n}\r\n#slick-views-coverflow-test-page-1-1 .slick-current .slide__caption {\r\n    display: inherit;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true
