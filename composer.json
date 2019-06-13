@@ -55,6 +55,7 @@
         "drupal/console": "^1",
         "drupal/core": "^8.6.15",
         "drupal/crop": "^2.0",
+        "drupal/csv_importer": "^1.4",
         "drupal/ctools": "^3.0",
         "drupal/devel": "^1.2",
         "drupal/diff": "^1.0",
