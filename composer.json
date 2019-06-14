@@ -44,6 +44,7 @@
         "drupal/addtoany": "^1.10",
         "drupal/allowed_formats": "^1.1",
         "drupal/asset_injector": "^2.2",
+        "drupal/auto_entitylabel": "^2.1",
         "drupal/bibcite": "^1.0",
         "drupal/block_class": "^1.0",
         "drupal/block_visibility_groups": "^1.3",
