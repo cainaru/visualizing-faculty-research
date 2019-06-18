@@ -8,7 +8,7 @@ dependencies:
     - field.storage.node.field_person_portrait
     - field.storage.node.field_person_position
     - field.storage.node.field_teaser_text
-    - image.style.scale_crop_480x480
+    - image.style.scale_crop_480x600
     - node.type.person
   module:
     - media
@@ -352,7 +352,7 @@ display:
           click_sort_column: target_id
           type: media_thumbnail
           settings:
-            image_style: scale_crop_480x480
+            image_style: scale_crop_480x600
             image_link: ''
           group_column: target_id
           group_columns: {  }
