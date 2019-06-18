@@ -1,0 +1,7 @@
+status: '2'
+pattern: '[node:field_person_name:given] [node:field_person_name:middle] [node:field_person_name:family] [node:field_person_name:generational]'
+php: 0
+escape: 0
+dependencies:
+  config:
+    - node.type.person
