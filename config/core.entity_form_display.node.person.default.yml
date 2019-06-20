@@ -34,10 +34,10 @@ third_party_settings:
   field_group:
     group_basic_info:
       children:
+        - field_person_name
         - title
         - field_person_portrait
         - field_last_updated
-        - field_person_name
       parent_name: ''
       weight: -10
       format_type: fieldset
@@ -171,12 +171,9 @@ content:
     region: content
   field_person_interests:
     weight: 132
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete_tags
+    type: options_select
     region: content
   field_person_links:
     weight: 130
