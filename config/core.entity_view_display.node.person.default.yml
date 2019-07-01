@@ -72,18 +72,92 @@ third_party_settings:
         classes: person__info
       label: 'Person basic information'
       region: content
+    group_row:
+      children:
+        - group_column1
+        - group_column2
+        - group_column3
+      parent_name: ''
+      weight: 13
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: row
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: row
+      region: content
+    group_column1:
+      children:
+        - field_person_biography
+      parent_name: group_row
+      weight: 14
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: col-md-8
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: column1
+      region: content
+    group_column2:
+      children:
+        - field_person_interests
+      parent_name: group_row
+      weight: 16
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: col-md-4
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: column2
+      region: content
+    group_column3:
+      children:
+        - field_last_updated
+        - addtoany
+        - links
+        - field_meta_tags
+      parent_name: group_row
+      weight: 18
+      format_type: html_element
+      format_settings:
+        label: column3
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: col-md-12
+      label: column3
+      region: content
 id: node.person.default
 targetEntityType: node
 bundle: person
 mode: default
 content:
   addtoany:
-    weight: 16
+    weight: 20
     region: content
     settings: {  }
     third_party_settings: {  }
   field_last_updated:
-    weight: 15
+    weight: 19
     label: inline
     settings:
       timezone_override: ''
@@ -92,14 +166,14 @@ content:
     type: datetime_custom
     region: content
   field_meta_tags:
-    weight: 18
+    weight: 22
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: content
   field_person_biography:
-    weight: 13
+    weight: 15
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -137,7 +211,7 @@ content:
     type: string
     region: content
   field_person_interests:
-    weight: 14
+    weight: 17
     label: above
     settings:
       link: true
@@ -190,7 +264,7 @@ content:
     type: string
     region: content
   links:
-    weight: 17
+    weight: 21
     region: content
     settings: {  }
     third_party_settings: {  }
