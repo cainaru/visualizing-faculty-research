@@ -1,0 +1,25 @@
+uuid: 9c4ceff4-c595-4461-ad14-87c1a0407810
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+id: ewb_frontpage_tweaks
+label: 'EWB Frontpage Tweaks'
+code: ".page-title {\r\n  display:none;\r\n}\r\n.navbar-default {\r\n  background-color: #000000;\r\n  border-color: #000000;\r\n}\r\n.navbar-default .navbar-brand {\r\n  color: #FFFFFF;\r\n}"
+media: all
+preprocess: true
+conditions:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+  node_type:
+    id: node_type
+    bundles:
+      landing_page: landing_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+conditions_require_all: true
