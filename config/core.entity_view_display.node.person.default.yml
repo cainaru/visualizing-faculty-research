@@ -17,6 +17,7 @@ dependencies:
     - field.field.node.person.field_person_phone
     - field.field.node.person.field_person_portrait
     - field.field.node.person.field_person_position
+    - field.field.node.person.field_person_social_media
     - field.field.node.person.field_teaser_text
     - node.type.person
   module:
@@ -24,6 +25,7 @@ dependencies:
     - field_group
     - link
     - metatag
+    - social_media_links_field
     - telephone
     - text
     - user
@@ -37,6 +39,7 @@ third_party_settings:
         - field_person_office_location
         - field_person_campus_mailbox
         - field_person_links
+        - field_person_social_media
       parent_name: group_person_basic_info
       weight: 6
       format_type: html_element
@@ -262,6 +265,15 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_person_social_media:
+    weight: 23
+    label: hidden
+    settings:
+      appearance: {  }
+      link_attributes: {  }
+    third_party_settings: {  }
+    type: social_media_links_field_default
     region: content
   links:
     weight: 21
