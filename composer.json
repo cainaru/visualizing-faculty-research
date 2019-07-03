@@ -221,7 +221,8 @@
         "enable-patching": true,
         "patches": {
             "drupal/social_media_links": {
-                "Add hidden platform name to icon links to pass accessibility scanners": "https://www.drupal.org/files/issues/2018-07-06/social_media_links-non_empty_icon_links.patch"
+                "Add hidden platform name to icon links to pass accessibility scanners": "https://www.drupal.org/files/issues/2018-07-06/social_media_links-non_empty_icon_links.patch",
+                "Platforms Not Sorted By Weight On Field Config View": "https://www.drupal.org/files/issues/2018-06-14/2979654-platforms-not-sorting-for-fields.patch"
             }
         }
     },

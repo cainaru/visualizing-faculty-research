@@ -11,12 +11,14 @@ dependencies:
     - field.field.node.person.field_person_department
     - field.field.node.person.field_person_email
     - field.field.node.person.field_person_fax
+    - field.field.node.person.field_person_interests
     - field.field.node.person.field_person_links
     - field.field.node.person.field_person_name
     - field.field.node.person.field_person_office_location
     - field.field.node.person.field_person_phone
     - field.field.node.person.field_person_portrait
     - field.field.node.person.field_person_position
+    - field.field.node.person.field_person_social_media
     - field.field.node.person.field_teaser_text
     - node.type.person
   module:
@@ -45,7 +47,7 @@ content:
     region: content
   field_person_portrait:
     type: entity_reference_entity_view
-    weight: -10
+    weight: 0
     region: content
     label: hidden
     settings:
@@ -67,9 +69,12 @@ hidden:
   field_person_biography: true
   field_person_campus_mailbox: true
   field_person_fax: true
+  field_person_interests: true
   field_person_links: true
   field_person_name: true
   field_person_office_location: true
   field_person_phone: true
+  field_person_social_media: true
   field_teaser_text: true
   links: true
+  person_works_entity_view_1: true

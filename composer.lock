@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5beab0b3be7dbb638e402c95016008d5",
+    "content-hash": "8a9fd368032d2e16d949b6bc35e921fc",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -6493,7 +6493,8 @@
                     }
                 },
                 "patches_applied": {
-                    "Add hidden platform name to icon links to pass accessibility scanners": "https://www.drupal.org/files/issues/2018-07-06/social_media_links-non_empty_icon_links.patch"
+                    "Add hidden platform name to icon links to pass accessibility scanners": "https://www.drupal.org/files/issues/2018-07-06/social_media_links-non_empty_icon_links.patch",
+                    "Platforms Not Sorted By Weight On Field Config View": "https://www.drupal.org/files/issues/2018-06-14/2979654-platforms-not-sorting-for-fields.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

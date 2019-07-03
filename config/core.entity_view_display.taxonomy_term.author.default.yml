@@ -1,0 +1,30 @@
+uuid: fb14fbac-2c2a-40c7-8258-96f9dbae83c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.author.field_author_profile
+    - taxonomy.vocabulary.author
+  module:
+    - text
+id: taxonomy_term.author.default
+targetEntityType: taxonomy_term
+bundle: author
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_author_profile:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

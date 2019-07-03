@@ -1,0 +1,212 @@
+uuid: df05cca0-0fea-4117-a78b-210a4ec85aab
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_migrate
+id: publication_import
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - CSV
+migration_group: publications
+label: 'Publication import'
+source:
+  plugin: csv
+  path: 'public://csv/publications.csv'
+  header_row_count: 1
+  keys:
+    - key
+  column_names:
+    -
+      key: Key
+    -
+      itemtype: 'Item Type'
+    -
+      pubyear: 'Publication Year'
+    -
+      author: Author
+    -
+      title: Title
+    -
+      pubtitle: 'Publication Title'
+    -
+      isbn: ISBN
+    -
+      issn: ISSN
+    -
+      doi: DOI
+    -
+      url: Url
+    -
+      abstractnote: 'Abstract Note'
+    -
+      date: Date
+    -
+      dateadded: 'Date Added'
+    -
+      datemodified: 'Date Modified'
+    -
+      accessdate: 'Access Date'
+    -
+      pages: Pages
+    -
+      numpages: 'Num Pages'
+    -
+      issue: Issue
+    -
+      volume: Volume
+    -
+      numvolumes: 'Number of Volumes'
+    -
+      journalabbr: 'Journal Abbreviation'
+    -
+      shorttile: 'Short Title'
+    -
+      series: Series
+    -
+      seriesnum: 'Series Number'
+    -
+      seriestext: 'Series Text'
+    -
+      seriestitle: 'Series Title'
+    -
+      publisher: Publisher
+    -
+      place: Place
+    -
+      language: Language
+    -
+      rights: Rights
+    -
+      type: Type
+    -
+      archive: Archive
+    -
+      archivelocation: 'Archive Location'
+    -
+      librarycatalog: 'Library Catalog'
+    -
+      callnumber: 'Call Number'
+    -
+      extra: Extra
+    -
+      fileattachments: 'File Attachments'
+    -
+      linkattachments: 'Link Attachments'
+    -
+      manualtags: 'Manual Tags'
+    -
+      automatictags: 'Automatic Tags'
+    -
+      editor: Editor
+    -
+      serieseditor: 'Series Editor'
+    -
+      translator: Translator
+    -
+      contributor: Contributor
+    -
+      attorney: 'Attorney Agent'
+    -
+      bookauthor: 'Book Author'
+    -
+      castmember: 'Cast Member'
+    -
+      commenter: Commenter
+    -
+      composer: Composer
+    -
+      cosponsor: Cosponsor
+    -
+      counsel: Counsel
+    -
+      interviewer: Interviewer
+    -
+      producer: Producer
+    -
+      recipient: Recipient
+    -
+      reviewedauthor: 'Reviewed Author'
+process:
+  type:
+    plugin: default_value
+    default_value: work
+  title: title
+  uid:
+    plugin: default_value
+    default_value: 1
+  field_work_abstract_note: abstractnote
+  field_work_doi: doi
+  field_work_extra: extra
+  field_work_isbn: isbn
+  field_work_issn: issn
+  field_work_issue: issue
+  field_work_key: key
+  field_work_notes: notes
+  field_work_num_pages: numpages
+  field_work_pages: pages
+  field_work_publication_year: pubyear
+  field_work_series_number: seriesnum
+  field_work_series_text: seriestext
+  field_work_series_title: seriestitle
+  field_work_short_title: shorttitle
+  field_work_url: url
+  field_work_volume: volume
+  field_work_title: title
+  field_work_author:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: author
+    -
+      plugin: entity_generate
+  field_work_item_type:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: itemtype
+    -
+      plugin: entity_generate
+  field_work_language:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: language
+    -
+      plugin: entity_generate
+  field_work_place:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: place
+    -
+      plugin: entity_generate
+  field_work_publication_title:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: pubtitle
+    -
+      plugin: entity_generate
+  field_work_publisher:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: publisher
+    -
+      plugin: entity_generate
+  field_work_series:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: series
+    -
+      plugin: entity_generate
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }

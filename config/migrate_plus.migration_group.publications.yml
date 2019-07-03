@@ -1,0 +1,10 @@
+uuid: f4935d12-a7ae-461c-b1c0-63648555f0c1
+langcode: en
+status: true
+dependencies: {  }
+id: publications
+label: Publications
+description: 'Import Publication data'
+source_type: CSV
+module: null
+shared_configuration: null

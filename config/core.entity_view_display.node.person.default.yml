@@ -97,6 +97,7 @@ third_party_settings:
     group_column1:
       children:
         - field_person_biography
+        - person_works_entity_view_1
       parent_name: group_row
       weight: 14
       format_type: html_element
@@ -277,6 +278,11 @@ content:
     region: content
   links:
     weight: 21
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  person_works_entity_view_1:
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
