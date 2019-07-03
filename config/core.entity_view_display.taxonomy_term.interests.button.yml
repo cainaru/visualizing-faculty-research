@@ -1,0 +1,14 @@
+uuid: b400e58b-cfa0-4759-8e19-37006c485856
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.button
+    - taxonomy.vocabulary.interests
+id: taxonomy_term.interests.button
+targetEntityType: taxonomy_term
+bundle: interests
+mode: button
+content: {  }
+hidden:
+  description: true

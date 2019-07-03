@@ -6,7 +6,7 @@ dependencies:
     - system
 id: temp
 label: temp
-code: ".field--label-inline .field--items {\r\n  float: none;\r\n  display: inline-block;\r\n}\r\n\r\n.field--label-inline .field--label, .field--label-inline > .field--item, .field--label-inline .field--items {\r\n   padding-right: .25em;\r\n}\r\n"
+code: "a.btn.btn-default-dark.btn-sm {\r\n  font-weight: 500;\r\n  text-transform: capitalize;\r\n}\r\n"
 media: all
 preprocess: true
 conditions:

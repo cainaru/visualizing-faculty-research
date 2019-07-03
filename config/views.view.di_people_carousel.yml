@@ -122,8 +122,8 @@ display:
           label: ''
           exclude: true
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: '{{ field_person_name__given }} {{ field_person_name__middle }} {{ field_person_name__family }} {{ field_person_name__generational }}'
             make_link: false
             path: ''
             absolute: false
