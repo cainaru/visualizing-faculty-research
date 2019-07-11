@@ -85,6 +85,7 @@
         "drupal/metatag": "^1.7",
         "drupal/migrate_file": "^1.1",
         "drupal/migrate_plus": "^4.1",
+        "drupal/migrate_process_regex": "^1.0",
         "drupal/migrate_source_csv": "^2.2",
         "drupal/migrate_tools": "^4.1",
         "drupal/mixitup_views": "^1.0",

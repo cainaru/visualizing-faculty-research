@@ -11,12 +11,6 @@
 .node-header-wrapper {
   margin-top: $line-height-computed;
   margin-bottom: $line-height-computed;
-
-  & .page-title {
-    @media (min-width: 568px) {
-      margin-top: 0px;
-    }
-  }
 }
 
 .person-contact {
@@ -31,10 +25,52 @@
   font-style: italic;
 }
 
-.person__portrait {
-  @media (min-width: 568px) {
+.person {
+  .node-header-wrapper {
+    background-color: $card-bg;
+    border-top: 5px solid $color-red;
+    padding: ceil(($grid-gutter-width / 2));
+    box-shadow: 0 0 12px $color-gray-dark;
+    & .page-title {
+      color: $color-red;
+      float: left;
+      width: percentage((9 / $grid-columns));
+      margin-top: 0;
+      margin-bottom: ($line-height-computed / 4);
+      @media (max-width: 567px) {
+        font-size: $font-size-h2;
+      }
+      @media (min-width: 568px) {
+        width: percentage((8 / $grid-columns));
+      }
+    }
+  }
+  .person__portrait {
     float: left;
-    width: percentage((4 / $grid-columns));
+    width: percentage((3 / $grid-columns));
     padding-right: ceil(($grid-gutter-width / 2));
+    @media (min-width: 568px) {
+      width: percentage((4 / $grid-columns));
+    }
+  }
+  .person__portrait img {
+    padding: $thumbnail-padding;
+    background-color: $thumbnail-bg;
+    border: 1px solid $thumbnail-border;
+  }
+
+  .person__info {
+    float: left;
+    width: percentage((9 / $grid-columns));
+    @media (max-width: 567px) {
+      font-size: 15px;
+    }
+    @media (min-width: 568px) {
+      width: percentage((8 / $grid-columns));
+    }
+    .social-media-links--platforms {
+      margin-top: ($line-height-computed / 4);
+      margin-bottom: 0px;
+    }
   }
 }

@@ -9,7 +9,7 @@ id: node.work.field_work_num_pages
 field_name: field_work_num_pages
 entity_type: node
 bundle: work
-label: 'Num pages'
+label: 'Number of pages'
 description: ''
 required: false
 translatable: false

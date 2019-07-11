@@ -33,38 +33,69 @@ dependencies:
     - field.field.node.work.field_work_volume
     - node.type.work
   module:
+    - field_group
     - link
     - user
+third_party_settings:
+  field_group:
+    group_work_details:
+      children:
+        - field_work_publication_title
+        - field_work_publisher
+        - field_work_publication_year
+        - field_work_volume
+        - field_work_issue
+        - field_work_pages
+        - field_work_num_pages
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: work-details
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Work details'
+      region: content
+    group_work_links:
+      children:
+        - field_work_doi
+        - field_work_isbn
+        - field_work_issn
+        - field_work_url
+        - links
+      parent_name: ''
+      weight: 11
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: work-links
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Work links'
+      region: content
 id: node.work.teaser_alternate
 targetEntityType: node
 bundle: work
 mode: teaser_alternate
 content:
   field_work_author:
-    weight: 0
-    label: above
+    weight: 1
+    label: visually_hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_work_doi:
-    weight: 10
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_work_isbn:
-    weight: 11
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_work_issn:
     weight: 12
     label: inline
     settings:
@@ -72,8 +103,24 @@ content:
     third_party_settings: {  }
     type: string
     region: content
+  field_work_isbn:
+    weight: 13
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_work_issn:
+    weight: 14
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   field_work_issue:
-    weight: 5
+    weight: 8
     label: inline
     settings:
       link_to_entity: false
@@ -81,15 +128,15 @@ content:
     type: string
     region: content
   field_work_item_type:
-    weight: 8
-    label: inline
+    weight: 2
+    label: visually_hidden
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_work_num_pages:
-    weight: 7
+    weight: 10
     label: inline
     settings:
       link_to_entity: false
@@ -97,7 +144,7 @@ content:
     type: string
     region: content
   field_work_pages:
-    weight: 6
+    weight: 9
     label: inline
     settings:
       link_to_entity: false
@@ -105,32 +152,32 @@ content:
     type: string
     region: content
   field_work_publication_title:
-    weight: 2
-    label: inline
+    weight: 4
+    label: visually_hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_work_publication_year:
-    weight: 3
-    label: inline
+    weight: 6
+    label: visually_hidden
     settings:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
     type: number_integer
     region: content
-  field_work_title:
-    weight: 1
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
+  field_work_publisher:
+    type: entity_reference_label
+    weight: 5
     region: content
+    label: visually_hidden
+    settings:
+      link: true
+    third_party_settings: {  }
   field_work_url:
-    weight: 9
+    weight: 15
     label: inline
     settings:
       trim_length: 80
@@ -142,7 +189,7 @@ content:
     type: link
     region: content
   field_work_volume:
-    weight: 4
+    weight: 7
     label: inline
     settings:
       link_to_entity: false
@@ -150,7 +197,7 @@ content:
     type: string
     region: content
   links:
-    weight: 100
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -164,9 +211,9 @@ hidden:
   field_work_language: true
   field_work_notes: true
   field_work_place: true
-  field_work_publisher: true
   field_work_series: true
   field_work_series_number: true
   field_work_series_text: true
   field_work_series_title: true
   field_work_short_title: true
+  field_work_title: true

@@ -55,27 +55,23 @@
 
 {% if label_hidden %}
   {% if multiple %}
-    <div{{ attributes.addClass(classes) }}>
-      <div class="field--items">
-        {%- for item in items -%}
-          {%- if items|length > 1 -%}
-            {{- item.content -}}{{- not loop.last ? ', ' -}}
-          {%- else -%}
-            {{- item.content -}}
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
-    </div>
-  {% else %}
-    <div class="field--items">
+    <div{{ attributes.addClass(classes, 'field--items') }}>
       {%- for item in items -%}
         {%- if items|length > 1 -%}
-          {{- item.content -}}{{- not loop.last ? ', ' -}}
+          <span{{ item.attributes.addClass('field--item') }}>{{- item.content -}}</span>{{- not loop.last ? ', ' -}}
         {%- else -%}
-          {{- item.content -}}
+          <span{{ item.attributes.addClass('field--item') }}>{{- item.content -}}</span>
         {%- endif -%}
       {%- endfor -%}
     </div>
+  {% else %}
+    {%- for item in items -%}
+      {%- if items|length > 1 -%}
+        <span{{ item.attributes.addClass('field--item') }}>{{- item.content -}}</span>{{- not loop.last ? ', ' -}}
+      {%- else -%}
+        <span{{ item.attributes.addClass('field--item') }}>{{- item.content -}}</span>
+      {%- endif -%}
+    {%- endfor -%}
   {% endif %}
 {% else %}
   <div{{ attributes.addClass(classes) }}>
@@ -83,13 +79,13 @@
     {% if multiple %}
       <div class="field--items">
     {% endif %}
-      {%- for item in items -%}
-        {%- if items|length > 1 -%}
-          {{- item.content -}}{{- not loop.last ? ', ' -}}
-        {%- else -%}
-          {{- item.content -}}
-        {%- endif -%}
-      {%- endfor -%}
+    {%- for item in items -%}
+      {%- if items|length > 1 -%}
+        <span{{ item.attributes.addClass('field--item') }}>{{- item.content -}}</span>{{- not loop.last ? ', ' -}}
+      {%- else -%}
+        <span{{ item.attributes.addClass('field--item') }}>{{- item.content -}}</span>
+      {%- endif -%}
+    {%- endfor -%}
     {% if multiple %}
       </div>
     {% endif %}

@@ -96,6 +96,7 @@ third_party_settings:
       region: content
     group_column1:
       children:
+        - di_person_works_entity_view_1
         - field_person_biography
         - person_works_entity_view_1
       parent_name: group_row
@@ -157,6 +158,11 @@ mode: default
 content:
   addtoany:
     weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  di_person_works_entity_view_1:
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }

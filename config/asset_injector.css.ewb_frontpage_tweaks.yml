@@ -7,7 +7,7 @@ dependencies:
     - system
 id: ewb_frontpage_tweaks
 label: 'EWB Frontpage Tweaks'
-code: ".page-title {\r\n  display:none;\r\n}\r\n.navbar-default {\r\n  background-color: #000000;\r\n  border-color: #000000;\r\n}\r\n.navbar-default .navbar-brand {\r\n  color: #FFFFFF;\r\n}"
+code: ".page-title {\r\n  display:none;\r\n}\r\n.navbar-default {\r\n  background-color: #000000;\r\n  border-color: #000000;\r\n}\r\n.navbar-default .navbar-brand {\r\n  color: #FFFFFF;\r\n}\r\n\r\n.viewsreference--view-title {\r\n  font-size:2em;\r\n  font-weight: bold;\r\n} \r\n.view-publications-recent  h4 {\r\n  font-size:17px;\r\n      margin-bottom: 2px;\r\n\r\n}"
 media: all
 preprocess: true
 conditions:

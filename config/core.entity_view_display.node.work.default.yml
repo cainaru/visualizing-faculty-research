@@ -44,26 +44,26 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 1
+    weight: 24
     settings: {  }
     third_party_settings: {  }
     region: content
   field_meta_tags:
-    weight: 102
+    weight: 27
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: content
   field_work_abstract_note:
-    weight: 13
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_work_author:
-    weight: 6
+    weight: 2
     label: above
     settings:
       link: true
@@ -71,7 +71,7 @@ content:
     type: entity_reference_label
     region: content
   field_work_doi:
-    weight: 11
+    weight: 20
     label: above
     settings:
       link_to_entity: false
@@ -79,7 +79,7 @@ content:
     type: string
     region: content
   field_work_extra:
-    weight: 26
+    weight: 18
     label: above
     settings:
       link_to_entity: false
@@ -87,7 +87,7 @@ content:
     type: string
     region: content
   field_work_isbn:
-    weight: 9
+    weight: 21
     label: above
     settings:
       link_to_entity: false
@@ -95,7 +95,7 @@ content:
     type: string
     region: content
   field_work_issn:
-    weight: 10
+    weight: 22
     label: above
     settings:
       link_to_entity: false
@@ -103,7 +103,7 @@ content:
     type: string
     region: content
   field_work_issue:
-    weight: 16
+    weight: 10
     label: above
     settings:
       link_to_entity: false
@@ -111,7 +111,7 @@ content:
     type: string
     region: content
   field_work_item_type:
-    weight: 4
+    weight: 3
     label: above
     settings:
       link: true
@@ -119,7 +119,7 @@ content:
     type: entity_reference_label
     region: content
   field_work_key:
-    weight: 3
+    weight: 25
     label: above
     settings:
       link_to_entity: false
@@ -127,7 +127,7 @@ content:
     type: string
     region: content
   field_work_language:
-    weight: 25
+    weight: 17
     label: above
     settings:
       link: true
@@ -135,14 +135,14 @@ content:
     type: entity_reference_label
     region: content
   field_work_notes:
-    weight: 27
+    weight: 19
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_work_num_pages:
-    weight: 15
+    weight: 12
     label: above
     settings:
       link_to_entity: false
@@ -150,7 +150,7 @@ content:
     type: string
     region: content
   field_work_pages:
-    weight: 14
+    weight: 11
     label: above
     settings:
       link_to_entity: false
@@ -158,7 +158,7 @@ content:
     type: string
     region: content
   field_work_place:
-    weight: 24
+    weight: 7
     label: above
     settings:
       link: true
@@ -166,7 +166,7 @@ content:
     type: entity_reference_label
     region: content
   field_work_publication_title:
-    weight: 8
+    weight: 5
     label: above
     settings:
       link: true
@@ -174,7 +174,7 @@ content:
     type: entity_reference_label
     region: content
   field_work_publication_year:
-    weight: 5
+    weight: 8
     label: above
     settings:
       thousand_separator: ''
@@ -183,7 +183,7 @@ content:
     type: number_integer
     region: content
   field_work_publisher:
-    weight: 23
+    weight: 6
     label: above
     settings:
       link: true
@@ -191,7 +191,7 @@ content:
     type: entity_reference_label
     region: content
   field_work_series:
-    weight: 19
+    weight: 13
     label: above
     settings:
       link: true
@@ -199,7 +199,7 @@ content:
     type: entity_reference_label
     region: content
   field_work_series_number:
-    weight: 20
+    weight: 15
     label: above
     settings:
       link_to_entity: false
@@ -207,14 +207,14 @@ content:
     type: string
     region: content
   field_work_series_text:
-    weight: 21
+    weight: 16
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_work_series_title:
-    weight: 22
+    weight: 14
     label: above
     settings:
       link_to_entity: false
@@ -222,7 +222,7 @@ content:
     type: string
     region: content
   field_work_short_title:
-    weight: 18
+    weight: 1
     label: above
     settings:
       link_to_entity: false
@@ -230,7 +230,7 @@ content:
     type: string
     region: content
   field_work_title:
-    weight: 7
+    weight: 0
     label: above
     settings:
       link_to_entity: false
@@ -238,7 +238,7 @@ content:
     type: string
     region: content
   field_work_url:
-    weight: 12
+    weight: 23
     label: above
     settings:
       trim_length: 80
@@ -250,7 +250,7 @@ content:
     type: link
     region: content
   field_work_volume:
-    weight: 17
+    weight: 9
     label: above
     settings:
       link_to_entity: false
@@ -258,7 +258,7 @@ content:
     type: string
     region: content
   links:
-    weight: 100
+    weight: 26
     region: content
     settings: {  }
     third_party_settings: {  }

@@ -22,7 +22,6 @@ dependencies:
     - field.field.node.person.field_teaser_text
     - node.type.person
   module:
-    - name
     - text
     - user
 _core:
@@ -39,29 +38,6 @@ content:
     label: hidden
     settings:
       link: false
-    third_party_settings: {  }
-  field_person_email:
-    type: email_mailto
-    weight: 4
-    region: content
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-  field_person_name:
-    type: name_default
-    weight: 1
-    region: content
-    label: hidden
-    settings:
-      format: default
-      markup: false
-      output: default
-      multiple: default
-      multiple_delimiter: ', '
-      multiple_and: text
-      multiple_delimiter_precedes_last: never
-      multiple_el_al_min: '3'
-      multiple_el_al_first: '1'
     third_party_settings: {  }
   field_person_portrait:
     type: entity_reference_entity_view
@@ -94,13 +70,16 @@ content:
     third_party_settings: {  }
 hidden:
   addtoany: true
+  di_person_works_entity_view_1: true
   field_last_updated: true
   field_meta_tags: true
   field_person_biography: true
   field_person_campus_mailbox: true
+  field_person_email: true
   field_person_fax: true
   field_person_interests: true
   field_person_links: true
+  field_person_name: true
   field_person_office_location: true
   field_person_phone: true
   field_person_social_media: true

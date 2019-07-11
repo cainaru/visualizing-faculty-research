@@ -1,0 +1,20 @@
+uuid: 27fa6fe4-0cee-415a-a07d-423b45f0e98d
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+id: ewb_taxonomy_styling
+label: 'EWB Taxonomy Styling'
+code: ".btn-default-dark {\r\n    color: #FFF;\r\n    background-color: #3386c7;\r\n    border-color: #b3b3b3;\r\n    line-height: 1em;\r\n    font-size: .8em;\r\n}"
+media: all
+preprocess: true
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      person: person
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+conditions_require_all: true

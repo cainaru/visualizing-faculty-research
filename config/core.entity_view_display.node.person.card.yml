@@ -38,13 +38,6 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_person_email:
-    weight: 3
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: email_mailto
-    region: content
   field_person_portrait:
     type: entity_reference_entity_view
     weight: 0
@@ -62,12 +55,19 @@ content:
     third_party_settings: {  }
     type: string
     region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true
+  di_person_works_entity_view_1: true
   field_last_updated: true
   field_meta_tags: true
   field_person_biography: true
   field_person_campus_mailbox: true
+  field_person_email: true
   field_person_fax: true
   field_person_interests: true
   field_person_links: true
@@ -76,5 +76,4 @@ hidden:
   field_person_phone: true
   field_person_social_media: true
   field_teaser_text: true
-  links: true
   person_works_entity_view_1: true
