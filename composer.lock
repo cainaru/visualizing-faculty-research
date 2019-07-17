@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9ef75ba47b2c68452a1aa3ababc1cc2",
+    "content-hash": "bb8f36b35f0e47cad369d224acd6c82e",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -328,6 +328,21 @@
             "license": [
                 "MIT"
             ]
+        },
+        {
+            "name": "bower-asset/font-awesome",
+            "version": "5.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "ba907eaec40fab01d410c3023a5572b2cb46cea6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/ba907eaec40fab01d410c3023a5572b2cb46cea6",
+                "reference": "ba907eaec40fab01d410c3023a5572b2cb46cea6"
+            },
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/jquery",
@@ -6545,7 +6560,8 @@
                 },
                 "patches_applied": {
                     "Add hidden platform name to icon links to pass accessibility scanners": "https://www.drupal.org/files/issues/2018-07-06/social_media_links-non_empty_icon_links.patch",
-                    "Platforms Not Sorted By Weight On Field Config View": "https://www.drupal.org/files/issues/2018-06-14/2979654-platforms-not-sorting-for-fields.patch"
+                    "Platforms Not Sorted By Weight On Field Config View": "https://www.drupal.org/files/issues/2018-06-14/2979654-platforms-not-sorting-for-fields.patch",
+                    "Update Font Awesome to 5.1": "https://www.drupal.org/files/issues/2019-02-20/social_media_links-fix_font_awesome_style-2991846-10.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

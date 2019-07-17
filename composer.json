@@ -32,6 +32,7 @@
     "require": {
         "php": ">=7.0.8",
         "bower-asset/blazy": "^1.8",
+        "bower-asset/font-awesome": "^5.9",
         "bower-asset/jquery-simple-color": "^1.2",
         "bower-asset/jquery.easing": "^1.3",
         "bower-asset/mixitup": "3.3.0",
@@ -179,6 +180,9 @@
             "web/libraries/easing": [
                 "bower-asset/jquery.easing"
             ],
+            "web/libraries/fontawesome": [
+                "bower-asset/font-awesome"
+            ],
             "web/libraries/slick": [
                 "bower-asset/slick-carousel"
             ],
@@ -223,7 +227,8 @@
         "patches": {
             "drupal/social_media_links": {
                 "Add hidden platform name to icon links to pass accessibility scanners": "https://www.drupal.org/files/issues/2018-07-06/social_media_links-non_empty_icon_links.patch",
-                "Platforms Not Sorted By Weight On Field Config View": "https://www.drupal.org/files/issues/2018-06-14/2979654-platforms-not-sorting-for-fields.patch"
+                "Platforms Not Sorted By Weight On Field Config View": "https://www.drupal.org/files/issues/2018-06-14/2979654-platforms-not-sorting-for-fields.patch",
+                "Update Font Awesome to 5.1": "https://www.drupal.org/files/issues/2019-02-20/social_media_links-fix_font_awesome_style-2991846-10.patch"
             }
         }
     },
