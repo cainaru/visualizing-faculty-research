@@ -6,10 +6,38 @@
 @import "default-variables";
 @import "../bootstrap/assets/stylesheets/bootstrap/mixins";
 
-// Provides padding and margin for the div that holds the Person portrait, Person name, and contact info.
-// Please see node--person--full.html.twig
+.node-decorative-background {
+  width: 100vw;
+  height: ($line-height-computed * 6);
+  background-color: $color-brown-dark;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: ceil(($grid-gutter-width / -2));
+  margin-right: floor(($grid-gutter-width / -2));
+  z-index: -2;
+  background-image: url(../images/herring-cole.jpg);
+  background-position: 50% 31%;
+  background-size: cover;
+}
+
+$padding-container: ceil(($grid-gutter-width / 4));
+
+.layout-no-sidebars .node-decorative-background {
+  @media (min-width: $screen-lg-min) {
+    margin-left: calc(-50vw + 50% - #{$padding-container});
+    margin-right: calc(-50vw + 50% - #{$padding-container});
+  }
+}
+
+.layout-sidebar-first .node-decorative-background {
+  @media (min-width: $screen-sm-min) {
+    margin-left: calc(-50vw + 33.375% - #{$padding-container});
+  }
+}
+
 .node-header-wrapper {
-  margin-top: $line-height-computed;
+  margin-top: 104px;
   margin-bottom: $line-height-computed;
 }
 

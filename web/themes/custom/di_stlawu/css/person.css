@@ -13,8 +13,31 @@
  * You can copy existing variables directly from the following file:
  * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
  */
+.node-decorative-background {
+  width: 100vw;
+  height: 168px;
+  background-color: #4D3126;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  z-index: -2;
+  background-image: url(../images/herring-cole.jpg);
+  background-position: 50% 31%;
+  background-size: cover; }
+
+@media (min-width: 1200px) {
+  .layout-no-sidebars .node-decorative-background {
+    margin-left: calc(-50vw + 50% - 8px);
+    margin-right: calc(-50vw + 50% - 8px); } }
+
+@media (min-width: 768px) {
+  .layout-sidebar-first .node-decorative-background {
+    margin-left: calc(-50vw + 33.375% - 8px); } }
+
 .node-header-wrapper {
-  margin-top: 28px;
+  margin-top: 104px;
   margin-bottom: 28px; }
 
 .person-contact {

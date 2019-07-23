@@ -12606,8 +12606,10 @@ Custom Stuffs
       outline: 5px auto -webkit-focus-ring-color;
       outline-offset: -2px; }
 
+.btn:not(.btn-normal) {
+  text-transform: uppercase; }
+
 .btn {
-  text-transform: uppercase;
   font-weight: 700; }
 
 .btn-default-dark {
@@ -12667,6 +12669,9 @@ Custom Stuffs
   .btn-scarlet .badge {
     color: #C4122F;
     background-color: #fff; }
+
+.btn-list > .btn {
+  margin-bottom: 5px; }
 
 .content-container {
   margin-right: auto;
@@ -13329,5 +13334,17 @@ p:last-child,
 .view-footer .btn {
   margin-top: 14px;
   margin-bottom: 14px; }
+
+.region-sidebar-first .nav {
+  background-color: #ffffff;
+  border-top: 5px solid #C4122F;
+  box-shadow: 0 0 12px #979797; }
+  .region-sidebar-first .nav li {
+    border-bottom: 1px solid #979797; }
+    .region-sidebar-first .nav li a {
+      color: #673B2C; }
+      .region-sidebar-first .nav li a:hover, .region-sidebar-first .nav li a:focus {
+        color: #ffffff;
+        background-color: #C4122F; }
 
 /*# sourceMappingURL=style.css.map */
