@@ -1,7 +1,6 @@
 /**
  * Media paragraph type
  * Based off of Bootstrap 3.3.7
- * 
  */
 /**
  * Paragraphs Variables.
@@ -10,14 +9,17 @@
  */
 .paragraph--type--media.align-left,
 .paragraph--type--media.align-right {
-  max-width: 33.33333333%; }
+  max-width: 33.33333333%;
+}
 
 .paragraph--type--media.align-right {
   margin-left: 15px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 .paragraph--type--media.align-left {
   margin-right: 15px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 /*# sourceMappingURL=media.css.map */
