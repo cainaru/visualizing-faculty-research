@@ -1,0 +1,148 @@
+uuid: 725dca6d-f6e2-44b4-9fd3-6b74525d146a
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_migrate
+id: person_import
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - CSV
+migration_group: persons
+label: 'Person import'
+source:
+  plugin: csv
+  path: 'public://csv/profiles.csv'
+  header_row_count: 1
+  keys:
+    - pid
+  column_names:
+    -
+      pid: 'Profile ID'
+    -
+      name: Name
+    -
+      email: E-mail
+    -
+      addepartment: 'Department on Record'
+    -
+      adlocation: 'Location on Record'
+    -
+      adname: 'Name on Record'
+    -
+      adphone: 'Phone on Record'
+    -
+      adtitle: 'Title on Record'
+    -
+      facebook: Facebook
+    -
+      google: Google
+    -
+      instagram: Instagram
+    -
+      linkedin: LinkedIn
+    -
+      pinterest: Pinterest
+    -
+      snapchat: Snapchat
+    -
+      tumblr: Tumblr
+    -
+      twitter: Twitter
+    -
+      youtube: Youtube
+    -
+      biography: Biography
+    -
+      classyears: 'Class Years'
+    -
+      cv: CV
+    -
+      department: Department
+    -
+      description: Department
+    -
+      education: Education
+    -
+      employeetype: 'Employee Type'
+    -
+      examples: Examples
+    -
+      tag: Tag
+    -
+      fax: Fax
+    -
+      name: Name
+    -
+      office: Office
+    -
+      officehours: 'Office Hours'
+    -
+      phone: Phone
+    -
+      works: 'Published Work'
+    -
+      photo: 'Profile photo'
+    -
+      taughtcourses: 'Regularly Taught Courses'
+    -
+      interests: 'Research Interest'
+    -
+      samples: 'Sample Student Projects Supervised'
+  constants:
+    destination_base_uri: 'public://media/image/import/'
+process:
+  type:
+    plugin: default_value
+    default_value: person
+  uid:
+    plugin: default_value
+    default_value: 1
+  title:
+    plugin: default_value
+    default_value: name
+    source: adname
+  field_person_portrait:
+    plugin: migration_lookup
+    migration: person_media_import
+    no_stub: true
+    source: pid
+  field_person_department:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: addepartment
+    -
+      plugin: entity_generate
+  field_person_email: email
+  field_person_phone: adphone
+  field_person_position: adtitle
+  field_person_office_location: adlocation
+  field_person_biography: biography
+  field_person_name: adname
+  image_source:
+    -
+      plugin: preg_replace
+      pattern: '(.*),*.*'
+      replace: \1
+      source: photo
+  filename:
+    -
+      plugin: preg_replace
+      pattern: '(.*\/)*(.*)'
+      replace: \2
+      source: '@image_source'
+  image_destination:
+    -
+      plugin: concat
+      source:
+        - constants/destination_base_uri
+        - '@filename'
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }

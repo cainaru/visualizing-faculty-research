@@ -1,0 +1,10 @@
+uuid: ad0547be-9d10-4801-b35c-3cc20aa81158
+langcode: en
+status: true
+dependencies: {  }
+id: persons
+label: Persons
+description: 'Import Person Data'
+source_type: CSV
+module: null
+shared_configuration: null
