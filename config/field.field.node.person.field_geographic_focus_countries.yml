@@ -1,0 +1,29 @@
+uuid: e7274282-728d-4ae9-9bd6-2ba147dd548e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geographic_focus_countries
+    - node.type.person
+    - taxonomy.vocabulary.geographic_focus_national
+id: node.person.field_geographic_focus_countries
+field_name: field_geographic_focus_countries
+entity_type: node
+bundle: person
+label: 'Geographic Focus: Countries'
+description: 'If your teaching and/or research has a focus on specific countries.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      geographic_focus_national: geographic_focus_national
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

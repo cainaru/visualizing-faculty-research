@@ -38,7 +38,7 @@
         "bower-asset/mixitup": "3.3.0",
         "bower-asset/slick-carousel": "^1.8",
         "bower-asset/spectrum": "^1.8",
-        "composer/installers": "^1.0.20",
+        "composer/installers": "^1.7",
         "cweagans/composer-patches": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "drupal/address": "~1.0",
@@ -55,7 +55,7 @@
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",
-        "drupal/core": "^8.6.15",
+        "drupal/core-recommended": "^8.8",
         "drupal/crop": "^2.0",
         "drupal/csv_importer": "^1.4",
         "drupal/ctools": "^3.0",
@@ -117,7 +117,6 @@
         "stlawu/di_nodes": "^0.3.2",
         "stlawu/di_paragraphs": "dev-master",
         "stlawu/di_taxonomies": "^0.1.0",
-        "webflo/drupal-core-strict": "^8.6.15",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {

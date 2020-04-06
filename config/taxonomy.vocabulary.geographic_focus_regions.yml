@@ -1,0 +1,8 @@
+uuid: 8237251d-7f0b-4be9-918e-a2927c48c7de
+langcode: en
+status: true
+dependencies: {  }
+name: 'Geographic Focus: Regions'
+vid: geographic_focus_regions
+description: ''
+weight: 0

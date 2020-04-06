@@ -1,0 +1,8 @@
+uuid: 8c3a42a1-f4bd-41e3-bae7-7f3b0e648466
+langcode: en
+status: true
+dependencies: {  }
+name: 'Geographic Focus: Countries'
+vid: geographic_focus_national
+description: 'The International Standard for country codes. '
+weight: 0

@@ -1,0 +1,49 @@
+uuid: 7cd3ab67-45b3-47b6-ae12-ee0cc1bb436c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.geographic_focus_national.field_alpha_2_code
+    - field.field.taxonomy_term.geographic_focus_national.field_alpha_3_code
+    - field.field.taxonomy_term.geographic_focus_national.field_numeric
+    - taxonomy.vocabulary.geographic_focus_national
+  module:
+    - text
+id: taxonomy_term.geographic_focus_national.default
+targetEntityType: taxonomy_term
+bundle: geographic_focus_national
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_alpha_2_code:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_alpha_3_code:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_numeric:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden: {  }

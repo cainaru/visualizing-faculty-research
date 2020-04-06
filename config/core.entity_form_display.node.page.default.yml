@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.page.field_teaser_text
     - node.type.page
   module:
+    - content_moderation
     - datetime
     - field_group
     - maxlength
@@ -73,6 +74,7 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
   created:
     type: datetime_timestamp
@@ -111,6 +113,12 @@ content:
         maxlength_js_truncate_html: true
     type: text_textarea
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   path:
     type: path
     weight: 30
@@ -154,5 +162,6 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
 hidden: {  }

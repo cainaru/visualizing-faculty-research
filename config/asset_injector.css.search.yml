@@ -1,0 +1,11 @@
+uuid: d28b971d-c90a-45be-9d7d-dcf27a2ffa7c
+langcode: en
+status: true
+dependencies: {  }
+id: search
+label: Search
+code: "#block-di-stlawu-search  {\r\n  padding-top:1em;\r\n  max-width:600px;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

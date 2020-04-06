@@ -1,0 +1,20 @@
+uuid: 2193bbaa-d930-4d69-9449-8ce03c2c9926
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+id: person_profile_page
+label: 'Person Profile Page'
+code: ".field.field--name-field-teaser-text.field--type-text-long.field--label-hidden.field--item {\r\n    max-width: 600px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    padding-top: 1em;\r\n}"
+media: all
+preprocess: true
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      person: person
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+conditions_require_all: true

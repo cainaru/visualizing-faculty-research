@@ -56,11 +56,11 @@ content:
         - generic_1_1
         - generic_2_1
         - generic_3_2
+        - generic_4_5
         - social_media_28_15
         - social_media_40_21
-      crop_types_required:
-        - generic_1_1
       progress_indicator: throbber
+      crop_types_required: {  }
     third_party_settings: {  }
     type: image_widget_crop
     weight: 0
@@ -93,6 +93,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
 hidden:

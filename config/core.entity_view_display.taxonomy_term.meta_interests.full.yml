@@ -1,0 +1,22 @@
+uuid: 5aa7b8ff-ffcc-4884-bced-0b49bd1110c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - taxonomy.vocabulary.meta_interests
+  module:
+    - text
+id: taxonomy_term.meta_interests.full
+targetEntityType: taxonomy_term
+bundle: meta_interests
+mode: full
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

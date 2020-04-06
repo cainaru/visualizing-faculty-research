@@ -1,0 +1,19 @@
+uuid: 463a90d8-2f52-4762-9c9d-5a9fb635e710
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_alpha_2_code
+    - taxonomy.vocabulary.geographic_focus_national
+id: taxonomy_term.geographic_focus_national.field_alpha_2_code
+field_name: field_alpha_2_code
+entity_type: taxonomy_term
+bundle: geographic_focus_national
+label: 'Alpha-2 code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

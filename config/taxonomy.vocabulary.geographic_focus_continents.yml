@@ -1,0 +1,8 @@
+uuid: e054d0a3-fc6b-4618-bbec-6de5d9342ae8
+langcode: en
+status: true
+dependencies: {  }
+name: 'Geographic Focus: Continents'
+vid: geographic_focus_continents
+description: ''
+weight: 0

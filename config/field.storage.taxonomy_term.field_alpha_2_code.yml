@@ -1,0 +1,21 @@
+uuid: a096a2c8-10e5-4d72-84a0-2ed14b0b0fde
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_alpha_2_code
+field_name: field_alpha_2_code
+entity_type: taxonomy_term
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

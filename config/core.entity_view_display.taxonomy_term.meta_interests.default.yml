@@ -1,0 +1,21 @@
+uuid: 175f259d-b260-41b1-af95-c9840a57e61b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.meta_interests
+  module:
+    - text
+id: taxonomy_term.meta_interests.default
+targetEntityType: taxonomy_term
+bundle: meta_interests
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

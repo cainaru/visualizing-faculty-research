@@ -1,0 +1,19 @@
+uuid: 2dc451af-6818-4891-8aa6-ebea5ed8f6c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_alpha_3_code
+    - taxonomy.vocabulary.geographic_focus_national
+id: taxonomy_term.geographic_focus_national.field_alpha_3_code
+field_name: field_alpha_3_code
+entity_type: taxonomy_term
+bundle: geographic_focus_national
+label: 'Alpha-3 code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,948 @@
+uuid: 1981c605-fc86-45fc-9255-0a5f073661a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_interests
+    - field.storage.node.field_person_department
+    - node.type.person
+    - taxonomy.vocabulary.department
+    - taxonomy.vocabulary.meta_interests
+  content:
+    - 'taxonomy_term:department:0096d559-a756-4ff8-a22e-6a1feee48b3b'
+    - 'taxonomy_term:department:00ff5d9c-4d8c-4042-9bb2-93ecbaa2834b'
+    - 'taxonomy_term:department:015ae772-d803-45f3-b41a-09c8829d2de7'
+    - 'taxonomy_term:department:017dcedd-afbe-4e7c-bdcc-ce8096ea5399'
+    - 'taxonomy_term:department:052137bf-a034-4228-9e14-e983db64c4f9'
+    - 'taxonomy_term:department:05b6b2f5-d4ac-41d8-9603-e3e38e89c091'
+    - 'taxonomy_term:department:06212a72-c851-49b4-be25-ed7c21816675'
+    - 'taxonomy_term:department:071b8eac-8a23-489b-91cf-ac8a3e552c40'
+    - 'taxonomy_term:department:07aa1392-5d99-47cf-9215-5eeea8127a69'
+    - 'taxonomy_term:department:07dea4e2-6199-48ca-922a-2e50e7b05471'
+    - 'taxonomy_term:department:0b0c5c3d-45d8-4304-a8ee-2ae8b73b85d7'
+    - 'taxonomy_term:department:0bb689ad-530a-4b96-bf9b-ba5008fa5a48'
+    - 'taxonomy_term:department:0bd0deca-1d7f-46d5-9eca-a60ebee8d465'
+    - 'taxonomy_term:department:109911c0-f14e-444a-9eee-1596b7a5f35e'
+    - 'taxonomy_term:department:126fcd3d-4dad-4262-9942-1a7887899b23'
+    - 'taxonomy_term:department:161172ce-da40-413a-973c-6fdebd550285'
+    - 'taxonomy_term:department:199857bd-1b48-4443-b0c3-6d6e7a7cb3cd'
+    - 'taxonomy_term:department:1a2e9336-0410-4151-85a9-0b74cf06f93b'
+    - 'taxonomy_term:department:1b824172-3c23-481c-8476-2fe61cbd2e54'
+    - 'taxonomy_term:department:1b9a7823-0b35-48de-92bb-c1712f3b71e1'
+    - 'taxonomy_term:department:1c08901c-8e1e-48f4-bc0e-c3c3233c5707'
+    - 'taxonomy_term:department:1d1a41d7-113a-4b76-b56e-379edf6d02de'
+    - 'taxonomy_term:department:1ec23faf-370a-4e2b-a2f0-09cdf8ac8591'
+    - 'taxonomy_term:department:2203ced5-aca7-4e58-bbdd-b500b8dab5b9'
+    - 'taxonomy_term:department:23400d12-8446-430d-b12e-e226bf1ab9a8'
+    - 'taxonomy_term:department:23d26fce-2f12-4ec6-8172-236134f87e32'
+    - 'taxonomy_term:department:244db5b7-abe4-4701-8cda-9c6427a75019'
+    - 'taxonomy_term:department:2453b79c-efdc-4874-88a9-98948abf7622'
+    - 'taxonomy_term:department:299986d2-818e-4a64-89e6-7cc22e3accb1'
+    - 'taxonomy_term:department:2b5b9e6a-fc21-42b8-8c24-ce007aa9c921'
+    - 'taxonomy_term:department:2be3e5f6-5839-463c-ac6e-06c00c446489'
+    - 'taxonomy_term:department:2ccc69fc-6313-4844-82ca-ff2599eaa800'
+    - 'taxonomy_term:department:2d67eb61-704e-47bc-bc09-4ce7702f05fa'
+    - 'taxonomy_term:department:32f52c52-8b65-4ff0-9c09-44ad754945bd'
+    - 'taxonomy_term:department:33324fe1-54ac-4028-842d-384660487d63'
+    - 'taxonomy_term:department:335579cb-c398-4910-8e50-9df83ab99281'
+    - 'taxonomy_term:department:34dcbfe5-0d2a-4e41-a014-83d3400c61d3'
+    - 'taxonomy_term:department:36706e63-be03-4dac-984c-4962cffd9367'
+    - 'taxonomy_term:department:3938a226-ca06-4985-962e-d7b99211ec74'
+    - 'taxonomy_term:department:3942d667-04b5-4c4b-aabf-8597ce34df89'
+    - 'taxonomy_term:department:3b9b0a33-127a-4e3c-848f-52d45562a7af'
+    - 'taxonomy_term:department:3ce3d374-096d-4634-af0d-863a1a08011f'
+    - 'taxonomy_term:department:3f807c57-19e3-4c42-9e17-14ddd03cf322'
+    - 'taxonomy_term:department:420dc256-05fe-4ef8-b21e-d418acc58466'
+    - 'taxonomy_term:department:4322fa58-466e-44b4-8993-e1d3f0335dab'
+    - 'taxonomy_term:department:434c5f7e-96af-4f7d-a394-0920da5aa2f3'
+    - 'taxonomy_term:department:44c4ad12-90e0-4cf0-8e7f-92252404fc63'
+    - 'taxonomy_term:department:4d309e99-1577-430c-8d9b-b486b7e68f0f'
+    - 'taxonomy_term:department:4f529155-d66c-45f0-b474-3c7e47d8384f'
+    - 'taxonomy_term:department:4f9f670a-7616-4841-a32e-59c184d99e88'
+    - 'taxonomy_term:department:4ffc8ac4-1082-409d-bc34-15909334d3eb'
+    - 'taxonomy_term:department:5144789a-ba2f-4925-b869-ab1678142e16'
+    - 'taxonomy_term:department:515c50f5-8eb9-48ad-bef0-498befd144a4'
+    - 'taxonomy_term:department:516479e5-8a45-4a4c-8d07-6ecf56af85d9'
+    - 'taxonomy_term:department:54da430d-9f9b-497b-8f6c-4d4b5540de80'
+    - 'taxonomy_term:department:591e8b8e-a24b-44cb-a999-f7914bf23891'
+    - 'taxonomy_term:department:5ce52fed-3ad8-4df3-9550-dc7a3a06d66c'
+    - 'taxonomy_term:department:5f96a0d1-2039-44c6-b89b-a137f34f4c9e'
+    - 'taxonomy_term:department:6110ee3c-5f4b-498f-8f5a-304e61d0a73e'
+    - 'taxonomy_term:department:614447a6-57eb-4cad-ab33-c6a960ce7eb9'
+    - 'taxonomy_term:department:6592f13a-8605-44b1-85da-784d16a78831'
+    - 'taxonomy_term:department:66d6889b-0996-44a0-9d9b-a42b0fa3bb8b'
+    - 'taxonomy_term:department:693735b0-09f1-481c-815f-d95fe95ca589'
+    - 'taxonomy_term:department:6b29da73-fd8a-4d74-89a8-52edcd62a895'
+    - 'taxonomy_term:department:6c972627-9874-4de6-9b1c-543c9e568a69'
+    - 'taxonomy_term:department:6cdcd965-d4e5-4bae-9758-2e17e35707b2'
+    - 'taxonomy_term:department:6fa5915e-3f84-4cd2-88ca-d4bb27d5b9a5'
+    - 'taxonomy_term:department:7125e91d-a12e-4954-bcb9-9c32319f0a51'
+    - 'taxonomy_term:department:7ad731f9-34a4-4068-a854-01d5d613a3cb'
+    - 'taxonomy_term:department:7b47f4eb-a33c-46da-a35e-af3ec051cc52'
+    - 'taxonomy_term:department:7d1ac144-8ac9-4b2d-8961-f520eff54dbe'
+    - 'taxonomy_term:department:7d757b4a-e11e-4b54-a756-cc272622030c'
+    - 'taxonomy_term:department:7f69c770-48e1-4787-95b7-f11e562ab806'
+    - 'taxonomy_term:department:8059ce84-c14c-4329-b19d-4584e9ffc12e'
+    - 'taxonomy_term:department:8328da33-ba57-486c-ae2f-0c5b5470f0db'
+    - 'taxonomy_term:department:8534a068-0651-4bdf-bc6a-ec087c949968'
+    - 'taxonomy_term:department:85e4b0ce-edae-4b42-9aaf-addc5e8946a0'
+    - 'taxonomy_term:department:86c9e7e0-7911-4465-b0ef-0aa231b631f5'
+    - 'taxonomy_term:department:89040e8d-d23a-4d9b-8499-fb8e728d6652'
+    - 'taxonomy_term:department:8c1f04a8-66f0-464a-8e8f-3286d6f66138'
+    - 'taxonomy_term:department:8c44edd3-fced-4933-87b0-bc950542bb8e'
+    - 'taxonomy_term:department:8c6ee26f-6326-448c-8177-29080725a11c'
+    - 'taxonomy_term:department:8df8a155-4282-42da-a2eb-777d74d2b9b6'
+    - 'taxonomy_term:department:8eb2176b-a004-4e13-b1ab-c6883b834ba4'
+    - 'taxonomy_term:department:8edde6b5-5c16-41a7-9d04-3e477c335924'
+    - 'taxonomy_term:department:8ef61956-c449-4555-9de7-e6c224ec8818'
+    - 'taxonomy_term:department:91bc4e6f-7d0c-43ec-8fda-cdc226e18cfb'
+    - 'taxonomy_term:department:936db5a6-6be0-4773-be3e-b3ea5edb1381'
+    - 'taxonomy_term:department:9471c4a1-81a8-4f5d-a969-68d42b7844a0'
+    - 'taxonomy_term:department:9663eb20-fd71-4d79-9b62-e3f40b066d37'
+    - 'taxonomy_term:department:97d05f93-a7f8-4b65-86b6-ca3c054614fc'
+    - 'taxonomy_term:department:98f30d1f-e640-4984-9439-f21c1a6a451f'
+    - 'taxonomy_term:department:9c4ed0f9-6fae-457f-b5c6-0e45f2394c25'
+    - 'taxonomy_term:department:9c918b3e-de6e-40b5-a08d-c017bc6160a9'
+    - 'taxonomy_term:department:9ce23438-2b96-493a-b3cb-4c57880f0e65'
+    - 'taxonomy_term:department:9cf7572e-ad29-43e1-b84e-69bae221cd60'
+    - 'taxonomy_term:department:9e182e3c-8a67-454e-9e2f-58662b0f7440'
+    - 'taxonomy_term:department:a116a2a3-961d-412f-b4ca-835cd315d74f'
+    - 'taxonomy_term:department:a144dc3c-fdfb-413a-b6ac-71063c4e2cf7'
+    - 'taxonomy_term:department:a3dac07b-61d0-4596-a08f-a45dcb39dd04'
+    - 'taxonomy_term:department:a44b400f-a331-44f2-8044-62c7e2a19e8a'
+    - 'taxonomy_term:department:a55e7fc0-55e6-4dce-af60-a01eceed2fe0'
+    - 'taxonomy_term:department:a5f61350-972b-49c2-be75-7e8e96fbdb54'
+    - 'taxonomy_term:department:a6e4787b-83e4-4936-9e79-4f3368676fcf'
+    - 'taxonomy_term:department:a93d2a21-dd63-486c-a5cb-4984340102d8'
+    - 'taxonomy_term:department:ab3f8061-6d9b-41d4-bca5-5ad3064f1676'
+    - 'taxonomy_term:department:af0dff3f-2f56-4a3e-bed8-0d18ca6f1c7c'
+    - 'taxonomy_term:department:b06625d6-dab9-441b-910e-41d48c9d3b52'
+    - 'taxonomy_term:department:b1e693c3-ac36-49e6-bcb9-2a3af7ef93dd'
+    - 'taxonomy_term:department:bae509be-0910-44ac-a02c-a79b4e0dfcd6'
+    - 'taxonomy_term:department:bb3b8681-42cd-4d22-a125-9f436987fb9a'
+    - 'taxonomy_term:department:bb6ab89f-b102-4551-aa39-e1aa3190ce2b'
+    - 'taxonomy_term:department:bee2869b-16cc-4e32-b03b-aee5bc3b4eb0'
+    - 'taxonomy_term:department:c682a6ae-12d8-4491-81ae-58dcc468f745'
+    - 'taxonomy_term:department:c75600a0-bc5d-4d92-8c2e-7702af4240e5'
+    - 'taxonomy_term:department:c7ccca36-5dfc-4472-a308-77c1b4057ceb'
+    - 'taxonomy_term:department:c84234dd-81e3-4eff-aa32-edb986e58e22'
+    - 'taxonomy_term:department:c9126487-0ffb-42af-8bdc-34d92c45cef6'
+    - 'taxonomy_term:department:c9547305-64f3-4aa5-b8a0-3f8b3f982763'
+    - 'taxonomy_term:department:c9dee5b8-3d53-4e6a-bc05-9bf0ab29793f'
+    - 'taxonomy_term:department:ca72c699-5e6a-41d4-a4c2-3bde1d66640b'
+    - 'taxonomy_term:department:cb8b6e84-7f69-4498-8562-5c738a91cb26'
+    - 'taxonomy_term:department:cd8d2d99-d33a-4ea2-8fab-4d74e2400eb8'
+    - 'taxonomy_term:department:cf50d505-d786-4b7c-9b32-fa85b33a7443'
+    - 'taxonomy_term:department:d08a6f01-a114-4da8-9f66-a6126c3f1a21'
+    - 'taxonomy_term:department:d13014fc-baee-4ef7-ab08-b55d9ecf6e3e'
+    - 'taxonomy_term:department:d142de98-5320-4c8b-856c-6e0f0389f317'
+    - 'taxonomy_term:department:d437e075-f395-4015-97b7-d3fd498b97cd'
+    - 'taxonomy_term:department:d44c8139-8794-47b4-b69e-933a284382dd'
+    - 'taxonomy_term:department:d515d58e-d367-470f-860f-594430ad93cb'
+    - 'taxonomy_term:department:d723ff40-db68-4681-9c90-19d5a17d5451'
+    - 'taxonomy_term:department:d82aeb9d-4979-4a47-a0b0-c5318f1ae996'
+    - 'taxonomy_term:department:d8dfb217-0f4a-4953-aaa2-6d5e918ca672'
+    - 'taxonomy_term:department:d955689e-cf40-4bfd-b06c-187468df9dab'
+    - 'taxonomy_term:department:db135e75-04f4-42bd-a26a-ef8f518a7d60'
+    - 'taxonomy_term:department:e0c7afc6-f600-4d1a-8d38-f7391c295831'
+    - 'taxonomy_term:department:e33ee37e-3de0-4a1c-b2eb-f1399d63c554'
+    - 'taxonomy_term:department:ea77781c-55b6-4ad0-9e08-44ea0f752abc'
+    - 'taxonomy_term:department:eb516338-86fc-4007-916a-d35edce63494'
+    - 'taxonomy_term:department:eeffcdfe-c651-410d-80b0-55c24f7c5753'
+    - 'taxonomy_term:department:ef56e562-bc48-4aef-8c37-784926d3351b'
+    - 'taxonomy_term:department:f04e27ad-7e1c-49ac-a85f-7024d1eebf15'
+    - 'taxonomy_term:department:f3165f69-3631-487e-a425-7cdc873006bb'
+    - 'taxonomy_term:department:f352daea-14a4-4cb3-a676-e99d290a78e9'
+    - 'taxonomy_term:department:f5bf2cfa-fdfc-41df-86d7-59e6869bd91b'
+    - 'taxonomy_term:department:f64798c1-c47f-4495-af87-59d81eaa0014'
+    - 'taxonomy_term:department:f832e475-d8d6-48df-b77c-2b7877daffef'
+    - 'taxonomy_term:department:fa23a958-491f-4512-a118-bdc7d06cea80'
+    - 'taxonomy_term:department:fba4fc24-d76c-4966-8d3c-a175ec7e0b61'
+    - 'taxonomy_term:department:fc9e3129-dc14-4557-93be-263648662e06'
+    - 'taxonomy_term:department:fd216f76-1bf0-40cf-94ca-4b464b46d231'
+    - 'taxonomy_term:department:fe701b0f-0454-4a00-abce-9a24edfcb3e3'
+  module:
+    - csv_serialization
+    - node
+    - rest
+    - serialization
+    - taxonomy
+    - user
+    - views_data_export
+id: data_departments_to_interests
+label: 'Data: Departments to Interests'
+module: views
+description: ''
+tag: ''
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    display_plugin: default
+    id: default
+    display_title: Master
+    position: 0
+    display_options:
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      query:
+        type: views_query
+        options:
+          disable_sql_rewrite: false
+          distinct: false
+          replica: false
+          query_comment: ''
+          query_tags: {  }
+      exposed_form:
+        type: basic
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        type: none
+        options:
+          offset: 0
+      style:
+        type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          override: true
+          sticky: false
+          caption: ''
+          summary: ''
+          description: ''
+          columns:
+            title: title
+            field_person_department: field_person_department
+            field_meta_interests: field_meta_interests
+          info:
+            title:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_person_department:
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_meta_interests:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+          default: '-1'
+          empty_table: false
+      row:
+        type: fields
+        options:
+          inline: {  }
+          separator: ''
+          hide_empty: false
+          default_field_elements: true
+      fields:
+        field_person_department:
+          id: field_person_department
+          table: node__field_person_department
+          field: field_person_department
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: source
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_meta_interests:
+          id: field_meta_interests
+          table: node__field_meta_interests
+          field: field_meta_interests
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: target
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: false
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_meta_interests_1:
+          id: field_meta_interests_1
+          table: node__field_meta_interests
+          field: field_meta_interests
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: Meta-Interests
+          exclude: true
+          alter:
+            alter_text: true
+            text: '-'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ''
+          field_api_classes: false
+          plugin_id: field
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: count_distinct
+          admin_label: ''
+          label: 'person count'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          set_precision: false
+          precision: 0
+          decimal: .
+          format_plural: 0
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: value
+          exclude: false
+          alter:
+            alter_text: true
+            text: '{{ max(1, title) }}'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            person: person
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          expose:
+            operator_limit_selection: false
+            operator_list: {  }
+        field_person_department_target_id:
+          id: field_person_department_target_id
+          table: node__field_person_department
+          field: field_person_department_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            5370: 5370
+            5363: 5363
+            5463: 5463
+            5373: 5373
+            5427: 5427
+            5319: 5319
+            5475: 5475
+            5374: 5374
+            5425: 5425
+            5368: 5368
+            5339: 5339
+            5333: 5333
+            5315: 5315
+            5478: 5478
+            5477: 5477
+            5341: 5341
+            5440: 5440
+            5387: 5387
+            5395: 5395
+            5443: 5443
+            5381: 5381
+            5392: 5392
+            5430: 5430
+            5422: 5422
+            5439: 5439
+            5492: 5492
+            5401: 5401
+            5336: 5336
+            5500: 5500
+            5438: 5438
+            5399: 5399
+            5327: 5327
+            5376: 5376
+            5483: 5483
+            5465: 5465
+            5377: 5377
+            5375: 5375
+            5352: 5352
+            5382: 5382
+            5391: 5391
+            5420: 5420
+            5353: 5353
+            5468: 5468
+            5329: 5329
+            5360: 5360
+            5378: 5378
+            5389: 5389
+            5480: 5480
+            5393: 5393
+            5462: 5462
+            5406: 5406
+            5453: 5453
+            5491: 5491
+            5484: 5484
+            5479: 5479
+            5449: 5449
+            5383: 5383
+            5461: 5461
+            5441: 5441
+            5338: 5338
+            5482: 5482
+            5334: 5334
+            5314: 5314
+            5348: 5348
+            5346: 5346
+            5466: 5466
+            5419: 5419
+            5386: 5386
+            5418: 5418
+            5429: 5429
+            5417: 5417
+            5416: 5416
+            5354: 5354
+            5343: 5343
+            5396: 5396
+            5467: 5467
+            5403: 5403
+            5325: 5325
+            5469: 5469
+            5320: 5320
+            5451: 5451
+            5316: 5316
+            5498: 5498
+            5350: 5350
+            5397: 5397
+            5485: 5485
+            5455: 5455
+            5415: 5415
+            5398: 5398
+            5388: 5388
+            5364: 5364
+            5497: 5497
+            5357: 5357
+            5447: 5447
+            5457: 5457
+            5471: 5471
+            5371: 5371
+            5446: 5446
+            5414: 5414
+            5365: 5365
+            5356: 5356
+            5452: 5452
+            5413: 5413
+            5437: 5437
+            5450: 5450
+            5445: 5445
+            5499: 5499
+            5390: 5390
+            5460: 5460
+            5400: 5400
+            5459: 5459
+            5486: 5486
+            5345: 5345
+            5473: 5473
+            5412: 5412
+            5493: 5493
+            5332: 5332
+            5474: 5474
+            5488: 5488
+            5456: 5456
+            5411: 5411
+            5328: 5328
+            5490: 5490
+            5331: 5331
+            5380: 5380
+            5342: 5342
+            5317: 5317
+            5431: 5431
+            5407: 5407
+            5361: 5361
+            5408: 5408
+            5410: 5410
+            5481: 5481
+            5347: 5347
+            5318: 5318
+            5384: 5384
+            5458: 5458
+            5444: 5444
+            5335: 5335
+            5409: 5409
+            5379: 5379
+            5337: 5337
+            5495: 5495
+            5489: 5489
+            5355: 5355
+            5340: 5340
+            5402: 5402
+            5434: 5434
+            5421: 5421
+            5369: 5369
+            5351: 5351
+            5362: 5362
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: department
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
+        field_meta_interests_target_id:
+          id: field_meta_interests_target_id
+          table: node__field_meta_interests
+          field: field_meta_interests_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: 'not empty'
+          value: {  }
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: textfield
+          limit: true
+          vid: meta_interests
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
+      sorts:
+        field_person_department_target_id:
+          id: field_person_department_target_id
+          table: node__field_person_department
+          field: field_person_department_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: standard
+        field_meta_interests_target_id:
+          id: field_meta_interests_target_id
+          table: node__field_meta_interests
+          field: field_meta_interests_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: standard
+      header: {  }
+      footer: {  }
+      empty: {  }
+      relationships: {  }
+      arguments: {  }
+      display_extenders: {  }
+      group_by: true
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_meta_interests'
+        - 'config:field.storage.node.field_person_department'
+  data_export_1:
+    display_plugin: data_export
+    id: data_export_1
+    display_title: 'Data export'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      style:
+        type: data_export
+        options:
+          formats:
+            csv: csv
+          csv_settings:
+            delimiter: ','
+            enclosure: '"'
+            escape_char: \
+            strip_tags: true
+            trim: true
+            encoding: utf8
+          xls_settings:
+            xls_format: Excel2007
+            metadata:
+              creator: ''
+              last_modified_by: ''
+              title: ''
+              description: ''
+              subject: ''
+              keywords: ''
+              category: ''
+              manager: ''
+              company: ''
+      path: department-meta-interests/data.csv
+      filename: ''
+      pager:
+        type: none
+        options:
+          offset: 0
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - request_format
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_meta_interests'
+        - 'config:field.storage.node.field_person_department'
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: Page
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: department-meta-interests
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_meta_interests'
+        - 'config:field.storage.node.field_person_department'

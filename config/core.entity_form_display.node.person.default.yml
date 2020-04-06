@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.person.field_geographic_focus_countries
+    - field.field.node.person.field_geographic_focus_regions
     - field.field.node.person.field_last_updated
     - field.field.node.person.field_meta_interests
     - field.field.node.person.field_meta_tags
@@ -22,6 +24,7 @@ dependencies:
     - field.field.node.person.field_teaser_text
     - node.type.person
   module:
+    - content_moderation
     - datetime
     - field_group
     - link
@@ -125,6 +128,26 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_geographic_focus_countries:
+    weight: 136
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_geographic_focus_regions:
+    weight: 137
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_last_updated:
     weight: -1
     settings: {  }
@@ -274,6 +297,12 @@ content:
         maxlength_js_truncate_html: true
     type: text_textarea
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   path:
     type: path
     weight: 30
@@ -316,6 +345,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
 hidden: {  }
